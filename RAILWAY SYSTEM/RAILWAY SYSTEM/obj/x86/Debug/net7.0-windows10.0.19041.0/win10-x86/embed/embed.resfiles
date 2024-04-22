@@ -1,0 +1,12 @@
+App.xbf
+MainWindow.xbf
+Styles\FontSizes.xbf
+Styles\TextBlock.xbf
+Styles\Thickness.xbf
+Views\AdminPage.xbf
+Views\EmployeesPage.xbf
+Views\LoginPage.xbf
+Views\PassengerPage.xbf
+Views\SettingsPage.xbf
+Views\ShellPage.xbf
+Views\SignupPage.xbf

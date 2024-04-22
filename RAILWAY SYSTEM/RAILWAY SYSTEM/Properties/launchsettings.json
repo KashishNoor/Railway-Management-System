@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "RAILWAY SYSTEM (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "RAILWAY SYSTEM (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
