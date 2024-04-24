@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\OneDrive\\Desktop\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\RAILWAY SYSTEM.csproj": {}
+    "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\RAILWAY SYSTEM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\OneDrive\\Desktop\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj": {
+    "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\OneDrive\\Desktop\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj",
         "projectName": "RAILWAY SYSTEM.Core",
-        "projectPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj",
+        "projectPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,20 +60,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -83,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Dell\\OneDrive\\Desktop\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\RAILWAY SYSTEM.csproj": {
+    "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\RAILWAY SYSTEM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\OneDrive\\Desktop\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\RAILWAY SYSTEM.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\RAILWAY SYSTEM.csproj",
         "projectName": "RAILWAY SYSTEM",
-        "projectPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\RAILWAY SYSTEM.csproj",
+        "projectPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\RAILWAY SYSTEM.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -111,8 +97,8 @@
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\Dell\\OneDrive\\Desktop\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj": {
-                "projectPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj"
+              "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj": {
+                "projectPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj"
               }
             }
           }
@@ -143,6 +129,14 @@
               "target": "Package",
               "version": "[2.0.9, )"
             },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.21.11, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.140, )"
+            },
             "WinUIEx": {
               "target": "Package",
               "version": "[2.3.2, )"
@@ -161,10 +155,6 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
               "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
               "version": "[7.0.14, 7.0.14]"
             },
@@ -174,22 +164,6 @@
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-arm64",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x86",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
               "version": "[7.0.14, 7.0.14]"
             },
             {
@@ -207,10 +181,6 @@
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
               "version": "[10.0.19041.31, 10.0.19041.31]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",

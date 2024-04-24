@@ -6,7 +6,12 @@
   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
   mc:Ignorable="d">
 
-    <Grid x:ConnectionId='2' x:Name="ContentArea" Background="Pink">
+    <Grid x:ConnectionId='2' x:Name="ContentArea">
+        <!-- Setting the background image with ImageBrush -->
+        <Grid.Background>
+            <ImageBrush ImageSource="ms-appx:///Assets/background.jpg" Stretch="Fill" />
+        </Grid.Background>
+
         <StackPanel Width="300" Height="300" Background="PaleVioletRed" Opacity="0.7" Padding="20">
             <TextBox Width="300" Header="Enter Username:"  PlaceholderText="Name" />
             <PasswordBox Width="300" Header="Enter Password:" PlaceholderText="password" PasswordChar="." />
