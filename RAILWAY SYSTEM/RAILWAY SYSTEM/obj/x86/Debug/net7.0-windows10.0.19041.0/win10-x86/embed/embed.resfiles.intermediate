@@ -3,10 +3,17 @@ MainWindow.xbf
 Styles\FontSizes.xbf
 Styles\TextBlock.xbf
 Styles\Thickness.xbf
+Views\ADD_EMPLOYEEPage.xbf
 Views\AdminPage.xbf
+Views\CheckProfilePage.xbf
 Views\EmployeesPage.xbf
 Views\LoginPage.xbf
+Views\ManageEmployeesPage.xbf
 Views\PassengerPage.xbf
 Views\SettingsPage.xbf
 Views\ShellPage.xbf
 Views\SignupPage.xbf
+Views\Task_AssesmentPage.xbf
+Views\TrainSchedule_ManagementPage.xbf
+Views\ViewFeedbackPage.xbf
+Views\ViewTrainsPage.xbf

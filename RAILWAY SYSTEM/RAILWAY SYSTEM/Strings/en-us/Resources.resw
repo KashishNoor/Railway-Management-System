@@ -123,4 +123,22 @@
   <data name="Shell_CheckProfile.Content" xml:space="preserve">
     <value>CheckProfile</value>
   </data>
+  <data name="Shell_ManageEmployees.Content" xml:space="preserve">
+    <value>ManageEmployees</value>
+  </data>
+  <data name="Shell_TrainSchedule_Management.Content" xml:space="preserve">
+    <value>TrainSchedule_Management</value>
+  </data>
+  <data name="Shell_ViewTrains.Content" xml:space="preserve">
+    <value>ViewTrains</value>
+  </data>
+  <data name="Shell_Task_Assesment.Content" xml:space="preserve">
+    <value>Task_Assesment</value>
+  </data>
+  <data name="Shell_ViewFeedback.Content" xml:space="preserve">
+    <value>ViewFeedback</value>
+  </data>
+  <data name="Shell_ADD_EMPLOYEE.Content" xml:space="preserve">
+    <value>ADD_EMPLOYEE</value>
+  </data>
 </root>

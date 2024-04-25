@@ -72,6 +72,18 @@ public partial class App : Application
             services.AddSingleton<IFileService, FileService>();
 
             // Views and ViewModels
+            services.AddTransient<ADD_EMPLOYEEViewModel>();
+            services.AddTransient<ADD_EMPLOYEEPage>();
+            services.AddTransient<ViewFeedbackViewModel>();
+            services.AddTransient<ViewFeedbackPage>();
+            services.AddTransient<Task_AssesmentViewModel>();
+            services.AddTransient<Task_AssesmentPage>();
+            services.AddTransient<ViewTrainsViewModel>();
+            services.AddTransient<ViewTrainsPage>();
+            services.AddTransient<TrainSchedule_ManagementViewModel>();
+            services.AddTransient<TrainSchedule_ManagementPage>();
+            services.AddTransient<ManageEmployeesViewModel>();
+            services.AddTransient<ManageEmployeesPage>();
             services.AddTransient<CheckProfileViewModel>();
             services.AddTransient<CheckProfilePage>();
             services.AddTransient<SettingsViewModel>();

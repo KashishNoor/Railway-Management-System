@@ -21,6 +21,12 @@ public class PageService : IPageService
         Configure<EmployeesViewModel, EmployeesPage>();
         Configure<SettingsViewModel, SettingsPage>();
         Configure<CheckProfileViewModel, CheckProfilePage>();
+        Configure<ManageEmployeesViewModel, ManageEmployeesPage>();
+        Configure<TrainSchedule_ManagementViewModel, TrainSchedule_ManagementPage>();
+        Configure<ViewTrainsViewModel, ViewTrainsPage>();
+        Configure<Task_AssesmentViewModel, Task_AssesmentPage>();
+        Configure<ViewFeedbackViewModel, ViewFeedbackPage>();
+        Configure<ADD_EMPLOYEEViewModel, ADD_EMPLOYEEPage>();
     }
 
     public Type GetPageType(string key)

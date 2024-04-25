@@ -802,6 +802,9 @@
     <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\a.png">
       <PackagePath>Assets\a.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\add.png">
+      <PackagePath>Assets\add.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\b.png">
       <PackagePath>Assets\b.png</PackagePath>
     </AppxPackagedFile>
@@ -832,8 +835,20 @@
     <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\j.png">
       <PackagePath>Assets\j.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\k.png">
+      <PackagePath>Assets\k.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\l.png">
+      <PackagePath>Assets\l.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\n.png">
+      <PackagePath>Assets\n.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\one.svg">
+      <PackagePath>Assets\one.svg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\RAIL.jpg">
       <PackagePath>Assets\RAIL.jpg</PackagePath>
@@ -852,6 +867,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_buffer_wq43.svg">
+      <PackagePath>Assets\undraw_buffer_wq43.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_chat_bot_re_e2gj %281%29.svg">
+      <PackagePath>Assets\undraw_chat_bot_re_e2gj %281%29.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_chat_bot_re_e2gj.svg">
+      <PackagePath>Assets\undraw_chat_bot_re_e2gj.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_collab_-8-oes.svg">
+      <PackagePath>Assets\undraw_collab_-8-oes.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_dashboard_re_3b76.svg">
+      <PackagePath>Assets\undraw_dashboard_re_3b76.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_events_re_98ue.svg">
+      <PackagePath>Assets\undraw_events_re_98ue.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_Hire_re_gn5j.png">
+      <PackagePath>Assets\undraw_Hire_re_gn5j.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_image_viewer_re_7ejc.svg">
+      <PackagePath>Assets\undraw_image_viewer_re_7ejc.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_product_teardown_re_m1pc.svg">
+      <PackagePath>Assets\undraw_product_teardown_re_m1pc.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_Searching_re_3ra9.png">
+      <PackagePath>Assets\undraw_Searching_re_3ra9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_text_files_au1q.svg">
+      <PackagePath>Assets\undraw_text_files_au1q.svg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>

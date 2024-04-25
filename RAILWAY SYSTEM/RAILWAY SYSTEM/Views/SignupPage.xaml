@@ -10,7 +10,6 @@
         <ScrollViewer>
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
                 <Image x:Name="i" Source="/Assets/i.png" Height="250" Width="250" Margin="0 0 0 10"/>
-                <Image x:Name="Tick" Source="/Assets/Tick.png" Height="170" Width="170" Visibility="Collapsed" Margin="0 0 0 10"/>
                 <TextBox x:Name="userText" Width="300" Header="Username" PlaceholderText="Enter your username" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
                 <TextBox x:Name="userMail" Width="300" Header="Gmail" PlaceholderText="Enter your Gmail" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
                 <PasswordBox x:Name="passText" Width="300" Header="Password" PlaceholderText="Enter your password" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5" />
