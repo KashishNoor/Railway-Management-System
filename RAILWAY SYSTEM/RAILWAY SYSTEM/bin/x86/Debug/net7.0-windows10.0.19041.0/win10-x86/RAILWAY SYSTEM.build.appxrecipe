@@ -799,8 +799,44 @@
     <AppxPackagedFile Include="C:\Users\Dell\.nuget\packages\winuiex\2.3.2\lib\net6.0-windows10.0.18362\WinUIEx.pri">
       <PackagePath>WinUIEx.pri</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\a.png">
+      <PackagePath>Assets\a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\b.png">
+      <PackagePath>Assets\b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\c.png">
+      <PackagePath>Assets\c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\d.png">
+      <PackagePath>Assets\d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\e.png">
+      <PackagePath>Assets\e.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\ee.png">
+      <PackagePath>Assets\ee.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\f.png">
+      <PackagePath>Assets\f.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\g.png">
+      <PackagePath>Assets\g.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\h.png">
+      <PackagePath>Assets\h.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\i.png">
+      <PackagePath>Assets\i.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\j.png">
+      <PackagePath>Assets\j.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\RAIL.jpg">
+      <PackagePath>Assets\RAIL.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\OneDrive\Desktop\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>

@@ -7,15 +7,18 @@
   mc:Ignorable="d">
 
     <Grid x:Name="ContentArea">
-        <!-- Setting the background image with ImageBrush -->
-        <Grid.Background>
-            <ImageBrush ImageSource="ms-appx:///Assets/background.jpg" Stretch="Fill" />
-        </Grid.Background>
-
-        <StackPanel Width="300" Height="300" Background="#3d3d3d" Opacity="0.7" Padding="20">
-            <TextBox Width="300" Header="Enter Username:"  PlaceholderText="Name" />
-            <PasswordBox Width="300" Header="Enter Password:" PlaceholderText="password" PasswordChar="." />
-            <Button Margin="50" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="300" Content="SIGN UP" />
-        </StackPanel>
+        <ScrollViewer>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Image x:Name="i" Source="/Assets/i.png" Height="250" Width="250" Margin="0 0 0 10"/>
+                <Image x:Name="Tick" Source="/Assets/Tick.png" Height="170" Width="170" Visibility="Collapsed" Margin="0 0 0 10"/>
+                <TextBox x:Name="userText" Width="300" Header="Username" PlaceholderText="Enter your username" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
+                <TextBox x:Name="userMail" Width="300" Header="Gmail" PlaceholderText="Enter your Gmail" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
+                <PasswordBox x:Name="passText" Width="300" Header="Password" PlaceholderText="Enter your password" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5" />
+                <PasswordBox x:Name="passText1" Width="300" Header="Confirm Password" PlaceholderText="Enter your password" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5" />
+                <TextBlock Text="already have an account? Login" Foreground="#505AC9" Margin="0 0 0 20" />
+                <Button x:Name="SignUp_Button" Width="300" Height="35" FontWeight="Bold" Content="SignUp" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 50"/>
+                <TeachingTip x:Name="Error" Title="Warning! ❌️" Subtitle="Sorry, the username or password you entered is incorrect. Please check your credentials and try again."/>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>
