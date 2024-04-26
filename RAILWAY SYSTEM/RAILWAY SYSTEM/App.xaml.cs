@@ -72,6 +72,16 @@ public partial class App : Application
             services.AddSingleton<IFileService, FileService>();
 
             // Views and ViewModels
+            services.AddTransient<Delete_ScheduleViewModel>();
+            services.AddTransient<Delete_SchedulePage>();
+            services.AddTransient<Update_ScheduleViewModel>();
+            services.AddTransient<Update_SchedulePage>();
+            services.AddTransient<Add_ScheduleViewModel>();
+            services.AddTransient<Add_SchedulePage>();
+            services.AddTransient<Delete_EmployeeViewModel>();
+            services.AddTransient<Delete_EmployeePage>();
+            services.AddTransient<Update_EmployeeViewModel>();
+            services.AddTransient<Update_EmployeePage>();
             services.AddTransient<ADD_EMPLOYEEViewModel>();
             services.AddTransient<ADD_EMPLOYEEPage>();
             services.AddTransient<ViewFeedbackViewModel>();

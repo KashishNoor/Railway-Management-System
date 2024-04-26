@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m28gzrXkFwx6fDZfVDaYAvPr+q1kKagySZPIvEDIeIA0zjA3twRxk3ChtEXja+tSifWogoVanU0pKX1FcFxN9w==",
+  "dgSpecHash": "HVy9xyv6PqO+fTG7guDeJsn9ysu4TAiRW5Jp0neJFQL3IxefLiQ1rrgmFrzTHjW0CfGU63+Z92PoyBwE//haFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj",
+  "projectFilePath": "D:\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],

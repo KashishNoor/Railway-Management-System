@@ -27,6 +27,11 @@ public class PageService : IPageService
         Configure<Task_AssesmentViewModel, Task_AssesmentPage>();
         Configure<ViewFeedbackViewModel, ViewFeedbackPage>();
         Configure<ADD_EMPLOYEEViewModel, ADD_EMPLOYEEPage>();
+        Configure<Update_EmployeeViewModel, Update_EmployeePage>();
+        Configure<Delete_EmployeeViewModel, Delete_EmployeePage>();
+        Configure<Add_ScheduleViewModel, Add_SchedulePage>();
+        Configure<Update_ScheduleViewModel, Update_SchedulePage>();
+        Configure<Delete_ScheduleViewModel, Delete_SchedulePage>();
     }
 
     public Type GetPageType(string key)

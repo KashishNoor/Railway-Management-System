@@ -7,7 +7,15 @@
     mc:Ignorable="d">
 
     <Grid x:ConnectionId='2' x:Name="ContentArea">
-        
+        <ScrollViewer>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Image x:ConnectionId='3' x:Name="h" Source="/Assets/h.png" Height="250" Width="250" Margin="0 0 0 10"/>
+                <TextBlock Text="               SELECT AN OPTION" FontWeight="Bold" Foreground="CornflowerBlue" Margin="0 0 0 20" />
+                <Button x:ConnectionId='4' x:Name="Add2_Button" Width="250" Height="35" FontWeight="Bold" Content="Add Schedule" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20"/>
+                <Button x:ConnectionId='5' x:Name="Update2_Button" Width="250" Height="35" FontWeight="Bold" Content="Update Schedule" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20"/>
+                <Button x:ConnectionId='6' x:Name="Delete2_Button" Width="250" Height="35" FontWeight="Bold" Content="Delete Schedule" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20"/>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>
 

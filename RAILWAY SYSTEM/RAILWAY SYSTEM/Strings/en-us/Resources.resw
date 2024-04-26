@@ -141,4 +141,19 @@
   <data name="Shell_ADD_EMPLOYEE.Content" xml:space="preserve">
     <value>ADD_EMPLOYEE</value>
   </data>
+  <data name="Shell_Update_Employee.Content" xml:space="preserve">
+    <value>Update_Employee</value>
+  </data>
+  <data name="Shell_Delete_Employee.Content" xml:space="preserve">
+    <value>Delete_Employee</value>
+  </data>
+  <data name="Shell_Add_Schedule.Content" xml:space="preserve">
+    <value>Add_Schedule</value>
+  </data>
+  <data name="Shell_Update_Schedule.Content" xml:space="preserve">
+    <value>Update_Schedule</value>
+  </data>
+  <data name="Shell_Delete_Schedule.Content" xml:space="preserve">
+    <value>Delete_Schedule</value>
+  </data>
 </root>

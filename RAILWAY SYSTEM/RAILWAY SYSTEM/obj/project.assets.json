@@ -6677,11 +6677,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\RAILWAY SYSTEM.csproj",
+      "projectUniqueName": "D:\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\RAILWAY SYSTEM.csproj",
       "projectName": "RAILWAY SYSTEM",
-      "projectPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\RAILWAY SYSTEM.csproj",
+      "projectPath": "D:\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\RAILWAY SYSTEM.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\obj\\",
+      "outputPath": "D:\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6702,8 +6702,8 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj": {
-              "projectPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj"
+            "D:\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj": {
+              "projectPath": "D:\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM.Core\\RAILWAY SYSTEM.Core.csproj"
             }
           }
         }
