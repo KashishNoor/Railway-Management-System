@@ -9,7 +9,7 @@
     <Grid x:Name="ContentArea">
         <ScrollViewer>
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
-                <Image x:Name="mgr" Source="/Assets/mgr.png" Height="250" Width="250" Margin="0 0 0 10"/>
+                <Image x:Name="h" Source="/Assets/h.png" Height="250" Width="250" Margin="0 0 0 10"/>
                 <TextBlock Text="               SELECT AN OPTION" FontWeight="Bold" Foreground="CornflowerBlue" Margin="0 0 0 20" />
                 <Button x:Name="Add_Button" Width="250" Height="35" FontWeight="Bold" Content="Add Employee" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20"/>
                 <Button x:Name="Update_Button" Width="250" Height="35" FontWeight="Bold" Content="Update Employee" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20"/>

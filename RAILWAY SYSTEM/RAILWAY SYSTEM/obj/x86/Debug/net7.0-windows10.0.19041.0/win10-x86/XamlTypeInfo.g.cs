@@ -1071,12 +1071,12 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"));
                 userType.Activator = Activate_71_NavigationViewItem;
                 userType.AddMemberName("Icon");
+                userType.AddMemberName("MenuItems");
                 userType.AddMemberName("CompactPaneLength");
                 userType.AddMemberName("HasUnrealizedChildren");
                 userType.AddMemberName("InfoBadge");
                 userType.AddMemberName("IsChildSelected");
                 userType.AddMemberName("IsExpanded");
-                userType.AddMemberName("MenuItems");
                 userType.AddMemberName("MenuItemsSource");
                 userType.AddMemberName("SelectsOnInvoked");
                 xamlType = userType;
@@ -2224,55 +2224,55 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.Icon = (global::Microsoft.UI.Xaml.Controls.IconElement)Value;
         }
-        private object get_99_NavigationViewItem_CompactPaneLength(object instance)
+        private object get_99_NavigationViewItem_MenuItems(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
+            return that.MenuItems;
+        }
+        private object get_100_NavigationViewItem_CompactPaneLength(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.CompactPaneLength;
         }
-        private object get_100_NavigationViewItem_HasUnrealizedChildren(object instance)
+        private object get_101_NavigationViewItem_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_100_NavigationViewItem_HasUnrealizedChildren(object instance, object Value)
+        private void set_101_NavigationViewItem_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_101_NavigationViewItem_InfoBadge(object instance)
+        private object get_102_NavigationViewItem_InfoBadge(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.InfoBadge;
         }
-        private void set_101_NavigationViewItem_InfoBadge(object instance, object Value)
+        private void set_102_NavigationViewItem_InfoBadge(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.InfoBadge = (global::Microsoft.UI.Xaml.Controls.InfoBadge)Value;
         }
-        private object get_102_NavigationViewItem_IsChildSelected(object instance)
+        private object get_103_NavigationViewItem_IsChildSelected(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.IsChildSelected;
         }
-        private void set_102_NavigationViewItem_IsChildSelected(object instance, object Value)
+        private void set_103_NavigationViewItem_IsChildSelected(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.IsChildSelected = (global::System.Boolean)Value;
         }
-        private object get_103_NavigationViewItem_IsExpanded(object instance)
+        private object get_104_NavigationViewItem_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.IsExpanded;
         }
-        private void set_103_NavigationViewItem_IsExpanded(object instance, object Value)
+        private void set_104_NavigationViewItem_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.IsExpanded = (global::System.Boolean)Value;
-        }
-        private object get_104_NavigationViewItem_MenuItems(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            return that.MenuItems;
         }
         private object get_105_NavigationViewItem_MenuItemsSource(object instance)
         {
@@ -3106,47 +3106,47 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
                 xamlMember.Getter = get_98_NavigationViewItem_Icon;
                 xamlMember.Setter = set_98_NavigationViewItem_Icon;
                 break;
+            case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItems":
+                userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_99_NavigationViewItem_MenuItems;
+                xamlMember.SetIsReadOnly();
+                break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.CompactPaneLength":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_99_NavigationViewItem_CompactPaneLength;
+                xamlMember.Getter = get_100_NavigationViewItem_CompactPaneLength;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.HasUnrealizedChildren":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_100_NavigationViewItem_HasUnrealizedChildren;
-                xamlMember.Setter = set_100_NavigationViewItem_HasUnrealizedChildren;
+                xamlMember.Getter = get_101_NavigationViewItem_HasUnrealizedChildren;
+                xamlMember.Setter = set_101_NavigationViewItem_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.InfoBadge":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "InfoBadge", "Microsoft.UI.Xaml.Controls.InfoBadge");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_101_NavigationViewItem_InfoBadge;
-                xamlMember.Setter = set_101_NavigationViewItem_InfoBadge;
+                xamlMember.Getter = get_102_NavigationViewItem_InfoBadge;
+                xamlMember.Setter = set_102_NavigationViewItem_InfoBadge;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.IsChildSelected":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "IsChildSelected", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_102_NavigationViewItem_IsChildSelected;
-                xamlMember.Setter = set_102_NavigationViewItem_IsChildSelected;
+                xamlMember.Getter = get_103_NavigationViewItem_IsChildSelected;
+                xamlMember.Setter = set_103_NavigationViewItem_IsChildSelected;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.IsExpanded":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_103_NavigationViewItem_IsExpanded;
-                xamlMember.Setter = set_103_NavigationViewItem_IsExpanded;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItems":
-                userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_104_NavigationViewItem_MenuItems;
-                xamlMember.SetIsReadOnly();
+                xamlMember.Getter = get_104_NavigationViewItem_IsExpanded;
+                xamlMember.Setter = set_104_NavigationViewItem_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItemsSource":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
