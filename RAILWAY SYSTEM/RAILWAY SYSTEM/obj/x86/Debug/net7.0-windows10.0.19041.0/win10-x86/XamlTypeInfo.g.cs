@@ -224,7 +224,7 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[106];
+            _typeNameTable = new string[108];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -314,25 +314,27 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
             _typeNameTable[86] = "RAILWAY_SYSTEM.Behaviors.NavigationViewHeaderMode";
             _typeNameTable[87] = "RAILWAY_SYSTEM.Views.ShellPage";
             _typeNameTable[88] = "RAILWAY_SYSTEM.ViewModels.ShellViewModel";
-            _typeNameTable[89] = "RAILWAY_SYSTEM.Views.SignupPage";
-            _typeNameTable[90] = "RAILWAY_SYSTEM.ViewModels.SignupViewModel";
-            _typeNameTable[91] = "RAILWAY_SYSTEM.Views.Task_AssesmentPage";
-            _typeNameTable[92] = "RAILWAY_SYSTEM.ViewModels.Task_AssesmentViewModel";
-            _typeNameTable[93] = "RAILWAY_SYSTEM.Views.TrainSchedule_ManagementPage";
-            _typeNameTable[94] = "RAILWAY_SYSTEM.ViewModels.TrainSchedule_ManagementViewModel";
-            _typeNameTable[95] = "RAILWAY_SYSTEM.Views.Update_EmployeePage";
-            _typeNameTable[96] = "RAILWAY_SYSTEM.ViewModels.Update_EmployeeViewModel";
-            _typeNameTable[97] = "RAILWAY_SYSTEM.Views.Update_SchedulePage";
-            _typeNameTable[98] = "RAILWAY_SYSTEM.ViewModels.Update_ScheduleViewModel";
-            _typeNameTable[99] = "RAILWAY_SYSTEM.Views.ViewFeedbackPage";
-            _typeNameTable[100] = "RAILWAY_SYSTEM.ViewModels.ViewFeedbackViewModel";
-            _typeNameTable[101] = "RAILWAY_SYSTEM.Views.ViewTrainsPage";
-            _typeNameTable[102] = "RAILWAY_SYSTEM.ViewModels.ViewTrainsViewModel";
-            _typeNameTable[103] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[104] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[105] = "Int32";
+            _typeNameTable[89] = "Microsoft.UI.Xaml.Controls.DropDownButton";
+            _typeNameTable[90] = "Microsoft.UI.Xaml.Controls.Button";
+            _typeNameTable[91] = "RAILWAY_SYSTEM.Views.SignupPage";
+            _typeNameTable[92] = "RAILWAY_SYSTEM.ViewModels.SignupViewModel";
+            _typeNameTable[93] = "RAILWAY_SYSTEM.Views.Task_AssesmentPage";
+            _typeNameTable[94] = "RAILWAY_SYSTEM.ViewModels.Task_AssesmentViewModel";
+            _typeNameTable[95] = "RAILWAY_SYSTEM.Views.TrainSchedule_ManagementPage";
+            _typeNameTable[96] = "RAILWAY_SYSTEM.ViewModels.TrainSchedule_ManagementViewModel";
+            _typeNameTable[97] = "RAILWAY_SYSTEM.Views.Update_EmployeePage";
+            _typeNameTable[98] = "RAILWAY_SYSTEM.ViewModels.Update_EmployeeViewModel";
+            _typeNameTable[99] = "RAILWAY_SYSTEM.Views.Update_SchedulePage";
+            _typeNameTable[100] = "RAILWAY_SYSTEM.ViewModels.Update_ScheduleViewModel";
+            _typeNameTable[101] = "RAILWAY_SYSTEM.Views.ViewFeedbackPage";
+            _typeNameTable[102] = "RAILWAY_SYSTEM.ViewModels.ViewFeedbackViewModel";
+            _typeNameTable[103] = "RAILWAY_SYSTEM.Views.ViewTrainsPage";
+            _typeNameTable[104] = "RAILWAY_SYSTEM.ViewModels.ViewTrainsViewModel";
+            _typeNameTable[105] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[106] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[107] = "Int32";
 
-            _typeTable = new global::System.Type[106];
+            _typeTable = new global::System.Type[108];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -424,23 +426,25 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
             _typeTable[86] = typeof(global::RAILWAY_SYSTEM.Behaviors.NavigationViewHeaderMode);
             _typeTable[87] = typeof(global::RAILWAY_SYSTEM.Views.ShellPage);
             _typeTable[88] = typeof(global::RAILWAY_SYSTEM.ViewModels.ShellViewModel);
-            _typeTable[89] = typeof(global::RAILWAY_SYSTEM.Views.SignupPage);
-            _typeTable[90] = typeof(global::RAILWAY_SYSTEM.ViewModels.SignupViewModel);
-            _typeTable[91] = typeof(global::RAILWAY_SYSTEM.Views.Task_AssesmentPage);
-            _typeTable[92] = typeof(global::RAILWAY_SYSTEM.ViewModels.Task_AssesmentViewModel);
-            _typeTable[93] = typeof(global::RAILWAY_SYSTEM.Views.TrainSchedule_ManagementPage);
-            _typeTable[94] = typeof(global::RAILWAY_SYSTEM.ViewModels.TrainSchedule_ManagementViewModel);
-            _typeTable[95] = typeof(global::RAILWAY_SYSTEM.Views.Update_EmployeePage);
-            _typeTable[96] = typeof(global::RAILWAY_SYSTEM.ViewModels.Update_EmployeeViewModel);
-            _typeTable[97] = typeof(global::RAILWAY_SYSTEM.Views.Update_SchedulePage);
-            _typeTable[98] = typeof(global::RAILWAY_SYSTEM.ViewModels.Update_ScheduleViewModel);
-            _typeTable[99] = typeof(global::RAILWAY_SYSTEM.Views.ViewFeedbackPage);
-            _typeTable[100] = typeof(global::RAILWAY_SYSTEM.ViewModels.ViewFeedbackViewModel);
-            _typeTable[101] = typeof(global::RAILWAY_SYSTEM.Views.ViewTrainsPage);
-            _typeTable[102] = typeof(global::RAILWAY_SYSTEM.ViewModels.ViewTrainsViewModel);
-            _typeTable[103] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[104] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[105] = typeof(global::System.Int32);
+            _typeTable[89] = typeof(global::Microsoft.UI.Xaml.Controls.DropDownButton);
+            _typeTable[90] = typeof(global::Microsoft.UI.Xaml.Controls.Button);
+            _typeTable[91] = typeof(global::RAILWAY_SYSTEM.Views.SignupPage);
+            _typeTable[92] = typeof(global::RAILWAY_SYSTEM.ViewModels.SignupViewModel);
+            _typeTable[93] = typeof(global::RAILWAY_SYSTEM.Views.Task_AssesmentPage);
+            _typeTable[94] = typeof(global::RAILWAY_SYSTEM.ViewModels.Task_AssesmentViewModel);
+            _typeTable[95] = typeof(global::RAILWAY_SYSTEM.Views.TrainSchedule_ManagementPage);
+            _typeTable[96] = typeof(global::RAILWAY_SYSTEM.ViewModels.TrainSchedule_ManagementViewModel);
+            _typeTable[97] = typeof(global::RAILWAY_SYSTEM.Views.Update_EmployeePage);
+            _typeTable[98] = typeof(global::RAILWAY_SYSTEM.ViewModels.Update_EmployeeViewModel);
+            _typeTable[99] = typeof(global::RAILWAY_SYSTEM.Views.Update_SchedulePage);
+            _typeTable[100] = typeof(global::RAILWAY_SYSTEM.ViewModels.Update_ScheduleViewModel);
+            _typeTable[101] = typeof(global::RAILWAY_SYSTEM.Views.ViewFeedbackPage);
+            _typeTable[102] = typeof(global::RAILWAY_SYSTEM.ViewModels.ViewFeedbackViewModel);
+            _typeTable[103] = typeof(global::RAILWAY_SYSTEM.Views.ViewTrainsPage);
+            _typeTable[104] = typeof(global::RAILWAY_SYSTEM.ViewModels.ViewTrainsViewModel);
+            _typeTable[105] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[106] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[107] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -510,21 +514,22 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
         private object Activate_80_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
         private object Activate_82_NavigationHelper() { return new global::RAILWAY_SYSTEM.Helpers.NavigationHelper(); }
         private object Activate_83_NavigationViewHeaderBehavior() { return new global::RAILWAY_SYSTEM.Behaviors.NavigationViewHeaderBehavior(); }
-        private object Activate_89_SignupPage() { return new global::RAILWAY_SYSTEM.Views.SignupPage(); }
-        private object Activate_90_SignupViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.SignupViewModel(); }
-        private object Activate_91_Task_AssesmentPage() { return new global::RAILWAY_SYSTEM.Views.Task_AssesmentPage(); }
-        private object Activate_92_Task_AssesmentViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.Task_AssesmentViewModel(); }
-        private object Activate_93_TrainSchedule_ManagementPage() { return new global::RAILWAY_SYSTEM.Views.TrainSchedule_ManagementPage(); }
-        private object Activate_94_TrainSchedule_ManagementViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.TrainSchedule_ManagementViewModel(); }
-        private object Activate_95_Update_EmployeePage() { return new global::RAILWAY_SYSTEM.Views.Update_EmployeePage(); }
-        private object Activate_96_Update_EmployeeViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.Update_EmployeeViewModel(); }
-        private object Activate_97_Update_SchedulePage() { return new global::RAILWAY_SYSTEM.Views.Update_SchedulePage(); }
-        private object Activate_98_Update_ScheduleViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.Update_ScheduleViewModel(); }
-        private object Activate_99_ViewFeedbackPage() { return new global::RAILWAY_SYSTEM.Views.ViewFeedbackPage(); }
-        private object Activate_100_ViewFeedbackViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.ViewFeedbackViewModel(); }
-        private object Activate_101_ViewTrainsPage() { return new global::RAILWAY_SYSTEM.Views.ViewTrainsPage(); }
-        private object Activate_102_ViewTrainsViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.ViewTrainsViewModel(); }
-        private object Activate_103_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_89_DropDownButton() { return new global::Microsoft.UI.Xaml.Controls.DropDownButton(); }
+        private object Activate_91_SignupPage() { return new global::RAILWAY_SYSTEM.Views.SignupPage(); }
+        private object Activate_92_SignupViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.SignupViewModel(); }
+        private object Activate_93_Task_AssesmentPage() { return new global::RAILWAY_SYSTEM.Views.Task_AssesmentPage(); }
+        private object Activate_94_Task_AssesmentViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.Task_AssesmentViewModel(); }
+        private object Activate_95_TrainSchedule_ManagementPage() { return new global::RAILWAY_SYSTEM.Views.TrainSchedule_ManagementPage(); }
+        private object Activate_96_TrainSchedule_ManagementViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.TrainSchedule_ManagementViewModel(); }
+        private object Activate_97_Update_EmployeePage() { return new global::RAILWAY_SYSTEM.Views.Update_EmployeePage(); }
+        private object Activate_98_Update_EmployeeViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.Update_EmployeeViewModel(); }
+        private object Activate_99_Update_SchedulePage() { return new global::RAILWAY_SYSTEM.Views.Update_SchedulePage(); }
+        private object Activate_100_Update_ScheduleViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.Update_ScheduleViewModel(); }
+        private object Activate_101_ViewFeedbackPage() { return new global::RAILWAY_SYSTEM.Views.ViewFeedbackPage(); }
+        private object Activate_102_ViewFeedbackViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.ViewFeedbackViewModel(); }
+        private object Activate_103_ViewTrainsPage() { return new global::RAILWAY_SYSTEM.Views.ViewTrainsPage(); }
+        private object Activate_104_ViewTrainsViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.ViewTrainsViewModel(); }
+        private object Activate_105_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -544,7 +549,7 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
             var newItem = (global::Microsoft.UI.Xaml.DependencyObject)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_104_IList(object instance, object item)
+        private void VectorAdd_106_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -1231,114 +1236,124 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 89:   //  RAILWAY_SYSTEM.Views.SignupPage
+            case 89:   //  Microsoft.UI.Xaml.Controls.DropDownButton
+                userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Button"));
+                userType.Activator = Activate_89_DropDownButton;
+                xamlType = userType;
+                break;
+
+            case 90:   //  Microsoft.UI.Xaml.Controls.Button
+                xamlType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 91:   //  RAILWAY_SYSTEM.Views.SignupPage
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_89_SignupPage;
+                userType.Activator = Activate_91_SignupPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 90:   //  RAILWAY_SYSTEM.ViewModels.SignupViewModel
+            case 92:   //  RAILWAY_SYSTEM.ViewModels.SignupViewModel
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 91:   //  RAILWAY_SYSTEM.Views.Task_AssesmentPage
+            case 93:   //  RAILWAY_SYSTEM.Views.Task_AssesmentPage
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_91_Task_AssesmentPage;
+                userType.Activator = Activate_93_Task_AssesmentPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 92:   //  RAILWAY_SYSTEM.ViewModels.Task_AssesmentViewModel
+            case 94:   //  RAILWAY_SYSTEM.ViewModels.Task_AssesmentViewModel
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 93:   //  RAILWAY_SYSTEM.Views.TrainSchedule_ManagementPage
+            case 95:   //  RAILWAY_SYSTEM.Views.TrainSchedule_ManagementPage
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_93_TrainSchedule_ManagementPage;
+                userType.Activator = Activate_95_TrainSchedule_ManagementPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 94:   //  RAILWAY_SYSTEM.ViewModels.TrainSchedule_ManagementViewModel
+            case 96:   //  RAILWAY_SYSTEM.ViewModels.TrainSchedule_ManagementViewModel
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 95:   //  RAILWAY_SYSTEM.Views.Update_EmployeePage
+            case 97:   //  RAILWAY_SYSTEM.Views.Update_EmployeePage
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_95_Update_EmployeePage;
+                userType.Activator = Activate_97_Update_EmployeePage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 96:   //  RAILWAY_SYSTEM.ViewModels.Update_EmployeeViewModel
+            case 98:   //  RAILWAY_SYSTEM.ViewModels.Update_EmployeeViewModel
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 97:   //  RAILWAY_SYSTEM.Views.Update_SchedulePage
+            case 99:   //  RAILWAY_SYSTEM.Views.Update_SchedulePage
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_97_Update_SchedulePage;
+                userType.Activator = Activate_99_Update_SchedulePage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 98:   //  RAILWAY_SYSTEM.ViewModels.Update_ScheduleViewModel
+            case 100:   //  RAILWAY_SYSTEM.ViewModels.Update_ScheduleViewModel
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 99:   //  RAILWAY_SYSTEM.Views.ViewFeedbackPage
+            case 101:   //  RAILWAY_SYSTEM.Views.ViewFeedbackPage
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_99_ViewFeedbackPage;
+                userType.Activator = Activate_101_ViewFeedbackPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 100:   //  RAILWAY_SYSTEM.ViewModels.ViewFeedbackViewModel
+            case 102:   //  RAILWAY_SYSTEM.ViewModels.ViewFeedbackViewModel
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 101:   //  RAILWAY_SYSTEM.Views.ViewTrainsPage
+            case 103:   //  RAILWAY_SYSTEM.Views.ViewTrainsPage
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_101_ViewTrainsPage;
+                userType.Activator = Activate_103_ViewTrainsPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 102:   //  RAILWAY_SYSTEM.ViewModels.ViewTrainsViewModel
+            case 104:   //  RAILWAY_SYSTEM.ViewModels.ViewTrainsViewModel
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 103:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 105:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_103_TreeViewNode;
+                userType.Activator = Activate_105_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -1350,14 +1365,14 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 104:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 106:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_104_IList;
+                userType.CollectionAdd = VectorAdd_106_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 105:   //  Int32
+            case 107:   //  Int32
                 xamlType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }

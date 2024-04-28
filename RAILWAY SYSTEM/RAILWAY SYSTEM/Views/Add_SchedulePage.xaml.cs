@@ -1,4 +1,5 @@
-﻿using Microsoft.UI.Xaml.Controls;
+﻿using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
 
 using RAILWAY_SYSTEM.ViewModels;
 
@@ -15,5 +16,8 @@ public sealed partial class Add_SchedulePage : Page
     {
         ViewModel = App.GetService<Add_ScheduleViewModel>();
         InitializeComponent();
+    }
+    private void AddS_Click(object sender, RoutedEventArgs e)
+    {
     }
 }

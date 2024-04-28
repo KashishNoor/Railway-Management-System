@@ -11,9 +11,9 @@
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
                 <Image x:Name="d" Source="/Assets/d.png" Height="250" Width="350" Margin="0 0 0 6"/>
                 <TextBlock Text="SELECT AN OPTION" HorizontalAlignment="Center" FontWeight="Bold" Foreground="CornflowerBlue" Margin="0 0 0 20" />
-                <Button x:Name="Add_Button" Width="250" Height="35" FontWeight="Bold" Content="Add Employee" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20"/>
-                <Button x:Name="Update_Button" Width="250" Height="35" FontWeight="Bold" Content="Update Employee" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20"/>
-                <Button x:Name="Delete_Button" Width="250" Height="35" FontWeight="Bold" Content="Delete Employee" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20"/>
+                <Button x:Name="Add_Button" Width="250" Height="35" FontWeight="Bold" Content="Add Employee" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20" Click="Add1_Click"/>
+                <Button x:Name="Update_Button" Width="250" Height="35" FontWeight="Bold" Content="Update Employee" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20" Click="Up1_Click"/>
+                <Button x:Name="Delete_Button" Width="250" Height="35" FontWeight="Bold" Content="Delete Employee" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20" Click="Del1_Click"/>
             </StackPanel>
         </ScrollViewer>
     </Grid>

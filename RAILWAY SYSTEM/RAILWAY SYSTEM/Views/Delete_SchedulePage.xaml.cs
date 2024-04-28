@@ -1,4 +1,5 @@
-﻿using Microsoft.UI.Xaml.Controls;
+﻿using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
 
 using RAILWAY_SYSTEM.ViewModels;
 
@@ -30,5 +31,9 @@ public sealed partial class Delete_SchedulePage : Page
     private void Control2_SuggestionChosen(AutoSuggestBox sender, AutoSuggestBoxSuggestionChosenEventArgs args)
     {
         // Event handler for suggestion chosen
+    }
+
+    private void DelS_Click(object sender, RoutedEventArgs e)
+    {
     }
 }

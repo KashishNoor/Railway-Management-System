@@ -15,7 +15,7 @@
                   QueryIcon="Find"
                                                           
                                                               />
-                <Button x:ConnectionId='5' x:Name="DEL_Button" Width="200" Height="35" FontWeight="Bold" Content="Delete" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 10 10 10"/>
+                <Button x:ConnectionId='5' x:Name="DEL_Button" Width="200" Height="35" FontWeight="Bold" Content="Delete" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 10 10 10"                   />
 			</StackPanel>
 		</ScrollViewer>
     </Grid>

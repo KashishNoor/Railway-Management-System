@@ -1,4 +1,5 @@
-﻿using Microsoft.UI.Xaml.Controls;
+﻿using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
 
 using RAILWAY_SYSTEM.ViewModels;
 
@@ -15,5 +16,9 @@ public sealed partial class LoginPage : Page
     {
         ViewModel = App.GetService<LoginViewModel>();
         InitializeComponent();
+    }
+
+    private void Login_Click(object sender, RoutedEventArgs e)
+    {
     }
 }

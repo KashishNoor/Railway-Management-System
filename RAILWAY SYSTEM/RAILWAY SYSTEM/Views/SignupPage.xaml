@@ -12,11 +12,19 @@
                 <Image x:Name="signup" Source="/Assets/signup.png" Height="250" Width="250" Margin="0 0 0 10"/>
                 <TextBox x:Name="userText" Width="300" Header="Username" PlaceholderText="Enter your username" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
                 <TextBox x:Name="userMail" Width="300" Header="Gmail" PlaceholderText="Enter your Gmail" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
-                <PasswordBox x:Name="passText" Width="300" Header="Password" PlaceholderText="Enter your password" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5" />
+                <PasswordBox x:Name="passText" Width="300" Header="Password" PlaceholderText="Enter your password" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 10" />
                 <PasswordBox x:Name="passText1" Width="300" Header="Confirm Password" PlaceholderText="Enter your password" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5" />
+                <DropDownButton x:Name="genText" Content="User_Status" Width="300" Margin="0 15 10 10">
+                    <DropDownButton.Flyout>
+                        <MenuFlyout Placement="Bottom">
+                            <MenuFlyoutItem Text="Passenger" Width="300" Click="P_Click" />
+                            <MenuFlyoutItem Text="Employee" Width="300" Click="E_Click"/>
+                        </MenuFlyout>
+                    </DropDownButton.Flyout>
+                </DropDownButton>
                 <TextBlock Text="already have an account? Login" Foreground="#505AC9" Margin="0 0 0 20" />
-                <Button x:Name="SignUp_Button" Width="300" Height="35" FontWeight="Bold" Content="SignUp" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 50"/>
-                <TeachingTip x:Name="Error" Title="Warning! ❌️" Subtitle="Sorry, the username or password you entered is incorrect. Please check your credentials and try again."/>
+                <Button x:Name="SignUp_Button" Width="300" Height="35" FontWeight="Bold" Content="SignUp" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 50" Click="Signup_Click"/>
+                <TeachingTip x:Name="Error" Title="Warning! ❌️" Subtitle="Sorry, the username or password you entered is incorrect. Please check your credentials and try again." Target="{x:Bind SignUp_Button}"/>
             </StackPanel>
         </ScrollViewer>
     </Grid>

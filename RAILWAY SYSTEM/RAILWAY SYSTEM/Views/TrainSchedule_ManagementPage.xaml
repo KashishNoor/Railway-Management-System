@@ -11,9 +11,9 @@
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
                 <Image x:Name="o" Source="/Assets/o.png" Height="250" Width="350" Margin="0 0 0 6"/>
                 <TextBlock Text="SELECT AN OPTION" HorizontalAlignment="Center" FontWeight="Bold" Foreground="CornflowerBlue" Margin="0 0 0 20" />
-                <Button x:Name="Add2_Button" Width="250" Height="35" FontWeight="Bold" Content="Add Schedule" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20"/>
-                <Button x:Name="Update2_Button" Width="250" Height="35" FontWeight="Bold" Content="Update Schedule" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20"/>
-                <Button x:Name="Delete2_Button" Width="250" Height="35" FontWeight="Bold" Content="Delete Schedule" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20"/>
+                <Button x:Name="Add2_Button" Width="250" Height="35" FontWeight="Bold" Content="Add Schedule" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20" Click="Add11_Click"/>
+                <Button x:Name="Update2_Button" Width="250" Height="35" FontWeight="Bold" Content="Update Schedule" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20" Click="up11_Click"/>
+                <Button x:Name="Delete2_Button" Width="250" Height="35" FontWeight="Bold" Content="Delete Schedule" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 20" Click="del11_Click"/>
             </StackPanel>
         </ScrollViewer>
     </Grid>

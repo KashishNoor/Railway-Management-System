@@ -14,7 +14,7 @@
               QueryIcon="Find"
               QuerySubmitted="Control2_QuerySubmitted"
               SuggestionChosen="Control2_SuggestionChosen"/>
-            <Button x:Name="Check_Button" Content="Check Profile" Width="180" Height="35" FontWeight="Bold" Background="#505AC9" Foreground="#FFFFFF" HorizontalAlignment="Center" Margin="0 50 0 10" Grid.Row="2" />
+            <Button x:Name="Check_Button" Content="Check Profile" Width="180" Height="35" FontWeight="Bold" Background="#505AC9" Foreground="#FFFFFF" HorizontalAlignment="Center" Margin="0 50 0 10" Grid.Row="2" Click="CProfile_Click"/>
         </StackPanel>
     </Grid>
 </Page>

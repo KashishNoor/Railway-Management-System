@@ -1,4 +1,5 @@
-﻿using Microsoft.UI.Xaml.Controls;
+﻿using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
 
 using RAILWAY_SYSTEM.ViewModels;
 
@@ -30,5 +31,9 @@ public sealed partial class ViewTrainsPage : Page
     private void Control2_SuggestionChosen(AutoSuggestBox sender, AutoSuggestBoxSuggestionChosenEventArgs args)
     {
         // Event handler for suggestion chosen
+    }
+
+    private void View_Click(object sender, RoutedEventArgs e)
+    {
     }
 }

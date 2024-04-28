@@ -1,4 +1,5 @@
-﻿using Microsoft.UI.Xaml.Controls;
+﻿using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
 
 using RAILWAY_SYSTEM.ViewModels;
 
@@ -15,5 +16,9 @@ public sealed partial class Update_EmployeePage : Page
     {
         ViewModel = App.GetService<Update_EmployeeViewModel>();
         InitializeComponent();
+    }
+
+    private void Up1_Click(object sender, RoutedEventArgs e)
+    {
     }
 }

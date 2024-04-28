@@ -1,4 +1,5 @@
-﻿using Microsoft.UI.Xaml.Controls;
+﻿using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
 
 using RAILWAY_SYSTEM.ViewModels;
 
@@ -15,5 +16,9 @@ public sealed partial class Update_SchedulePage : Page
     {
         ViewModel = App.GetService<Update_ScheduleViewModel>();
         InitializeComponent();
+    }
+
+    private void Ups_Click(object sender, RoutedEventArgs e)
+    {
     }
 }
