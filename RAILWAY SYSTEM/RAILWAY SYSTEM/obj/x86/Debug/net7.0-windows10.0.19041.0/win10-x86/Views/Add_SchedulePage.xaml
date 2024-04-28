@@ -9,7 +9,7 @@
     <Grid x:ConnectionId='2' x:Name="ContentArea">
 		<ScrollViewer>
 			<StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
-				<Image x:ConnectionId='3' x:Name="add" Source="/Assets/add.png" Height="250" Width="250" Margin="0 0 0 10"/>
+				<Image x:ConnectionId='3' x:Name="add2" Source="/Assets/add2.png" Height="250" Width="250" Margin="0 0 0 10"/>
 				<TextBox x:ConnectionId='4' x:Name="Emp_ID" Width="300" Header="Employee ID: " PlaceholderText="Enter ID" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
 				<TextBox x:ConnectionId='5' x:Name="Emp_Name" Width="300" Header="Employee Name: " PlaceholderText="Enter Name" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
 				<TextBox x:ConnectionId='6' x:Name="Emp_Role" Width="300" Header="Employee Role:: " PlaceholderText="Enter Name" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>

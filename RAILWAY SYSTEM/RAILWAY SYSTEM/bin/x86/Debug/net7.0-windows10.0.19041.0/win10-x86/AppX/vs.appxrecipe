@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-26T06:33:53.033</Modified>
+      <Modified>2024-04-28T11:38:01.478</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-26T06:33:52.190</Modified>
+      <Modified>2024-04-28T11:38:00.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\RAILWAY SYSTEM.runtimeconfig.json">
       <PackagePath>RAILWAY SYSTEM.runtimeconfig.json</PackagePath>
@@ -43,7 +43,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\RAILWAY SYSTEM.dll">
       <PackagePath>RAILWAY SYSTEM.dll</PackagePath>
-      <Modified>2024-04-26T06:33:51.581</Modified>
+      <Modified>2024-04-28T11:37:59.954</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
@@ -51,7 +51,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>RAILWAY SYSTEM.exe</PackagePath>
-      <Modified>2024-04-26T06:33:51.596</Modified>
+      <Modified>2024-04-28T11:37:59.973</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\RAILWAY SYSTEM.deps.json">
       <PackagePath>RAILWAY SYSTEM.deps.json</PackagePath>
@@ -1067,15 +1067,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\a.png">
       <PackagePath>Assets\a.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.308</Modified>
+      <Modified>2024-04-28T08:15:48.342</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\add.png">
       <PackagePath>Assets\add.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.308</Modified>
+      <Modified>2024-04-28T11:22:51.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\add2.png">
+      <PackagePath>Assets\add2.png</PackagePath>
+      <Modified>2024-04-28T11:24:40.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\b.png">
       <PackagePath>Assets\b.png</PackagePath>
       <Modified>2024-04-26T05:56:09.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\bb.png">
+      <PackagePath>Assets\bb.png</PackagePath>
+      <Modified>2024-04-28T08:06:58.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\c.png">
       <PackagePath>Assets\c.png</PackagePath>
@@ -1083,11 +1091,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\d.png">
       <PackagePath>Assets\d.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.308</Modified>
+      <Modified>2024-04-28T08:12:20.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\e.png">
       <PackagePath>Assets\e.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.308</Modified>
+      <Modified>2024-04-28T08:11:37.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\ee.png">
       <PackagePath>Assets\ee.png</PackagePath>
@@ -1095,115 +1103,83 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\f.png">
       <PackagePath>Assets\f.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.308</Modified>
+      <Modified>2024-04-28T08:12:00.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\g.png">
       <PackagePath>Assets\g.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.308</Modified>
+      <Modified>2024-04-28T08:06:38.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\h.png">
       <PackagePath>Assets\h.png</PackagePath>
       <Modified>2024-04-26T05:56:09.324</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\hh.png">
+      <PackagePath>Assets\hh.png</PackagePath>
+      <Modified>2024-04-28T08:06:20.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\hhh.png">
+      <PackagePath>Assets\hhh.png</PackagePath>
+      <Modified>2024-04-28T11:28:16.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\i %282%29.png">
+      <PackagePath>Assets\i %282%29.png</PackagePath>
+      <Modified>2024-04-28T08:10:58.732</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\i.png">
       <PackagePath>Assets\i.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.324</Modified>
+      <Modified>2024-04-28T08:10:33.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\j-removebg-preview.png">
+      <PackagePath>Assets\j-removebg-preview.png</PackagePath>
+      <Modified>2024-04-28T08:15:24.731</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\j.png">
       <PackagePath>Assets\j.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.324</Modified>
+      <Modified>2024-04-28T08:09:38.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\k.png">
       <PackagePath>Assets\k.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.324</Modified>
+      <Modified>2024-04-28T08:19:06.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\l-removebg-preview.png">
+      <PackagePath>Assets\l-removebg-preview.png</PackagePath>
+      <Modified>2024-04-28T08:16:21.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\l.png">
       <PackagePath>Assets\l.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.324</Modified>
+      <Modified>2024-04-28T08:08:54.487</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.293</Modified>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\login.png">
+      <PackagePath>Assets\login.png</PackagePath>
+      <Modified>2024-04-28T09:02:14.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\m.png">
+      <PackagePath>Assets\m.png</PackagePath>
+      <Modified>2024-04-28T08:05:50.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\n.png">
       <PackagePath>Assets\n.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.324</Modified>
+      <Modified>2024-04-28T08:19:21.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\one.svg">
-      <PackagePath>Assets\one.svg</PackagePath>
-      <Modified>2024-04-26T05:56:09.324</Modified>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\o.png">
+      <PackagePath>Assets\o.png</PackagePath>
+      <Modified>2024-04-28T10:04:47.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\RAIL.jpg">
-      <PackagePath>Assets\RAIL.jpg</PackagePath>
-      <Modified>2024-04-26T05:56:09.293</Modified>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\RAILWAY SYSTEM - Shortcut.lnk">
+      <PackagePath>Assets\RAILWAY SYSTEM - Shortcut.lnk</PackagePath>
+      <Modified>2024-04-28T08:21:13.834</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\SplashScreen.scale-200.png">
-      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.293</Modified>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\signup.png">
+      <PackagePath>Assets\signup.png</PackagePath>
+      <Modified>2023-10-22T18:06:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\Square150x150Logo.scale-200.png">
-      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.293</Modified>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\u1.png">
+      <PackagePath>Assets\u1.png</PackagePath>
+      <Modified>2024-04-28T11:33:31.744</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\Square44x44Logo.scale-200.png">
-      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.293</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
-      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.293</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.293</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_buffer_wq43.svg">
-      <PackagePath>Assets\undraw_buffer_wq43.svg</PackagePath>
-      <Modified>2024-04-26T05:56:09.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_chat_bot_re_e2gj %281%29.svg">
-      <PackagePath>Assets\undraw_chat_bot_re_e2gj %281%29.svg</PackagePath>
-      <Modified>2024-04-26T05:56:09.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_chat_bot_re_e2gj.svg">
-      <PackagePath>Assets\undraw_chat_bot_re_e2gj.svg</PackagePath>
-      <Modified>2024-04-26T05:56:09.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_collab_-8-oes.svg">
-      <PackagePath>Assets\undraw_collab_-8-oes.svg</PackagePath>
-      <Modified>2024-04-26T05:56:09.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_dashboard_re_3b76.svg">
-      <PackagePath>Assets\undraw_dashboard_re_3b76.svg</PackagePath>
-      <Modified>2024-04-26T05:56:09.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_events_re_98ue.svg">
-      <PackagePath>Assets\undraw_events_re_98ue.svg</PackagePath>
-      <Modified>2024-04-26T05:56:09.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_Hire_re_gn5j.png">
-      <PackagePath>Assets\undraw_Hire_re_gn5j.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.324</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_image_viewer_re_7ejc.svg">
-      <PackagePath>Assets\undraw_image_viewer_re_7ejc.svg</PackagePath>
-      <Modified>2024-04-26T05:56:09.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_product_teardown_re_m1pc.svg">
-      <PackagePath>Assets\undraw_product_teardown_re_m1pc.svg</PackagePath>
-      <Modified>2024-04-26T05:56:09.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_Searching_re_3ra9.png">
-      <PackagePath>Assets\undraw_Searching_re_3ra9.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.324</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_text_files_au1q.svg">
-      <PackagePath>Assets\undraw_text_files_au1q.svg</PackagePath>
-      <Modified>2024-04-26T05:56:09.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\Wide310x150Logo.scale-200.png">
-      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2024-04-26T05:56:09.293</Modified>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\u2.png">
+      <PackagePath>Assets\u2.png</PackagePath>
+      <Modified>2024-04-28T11:33:17.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\WindowIcon.ico">
       <PackagePath>Assets\WindowIcon.ico</PackagePath>

@@ -9,7 +9,7 @@
     <Grid x:Name="ContentArea">
         <ScrollViewer>
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
-                <Image x:Name="ee" Source="/Assets/ee.png" Height="250" Width="250" Margin="0 0 0 20"/>
+                <Image x:Name="login" Source="/Assets/login.png" Height="250" Width="350" Margin="0 0 0 20"/>
                 <Image x:Name="Tick" Source="/Assets/Tick.png" Height="170" Width="170" Visibility="Collapsed" Margin="0 0 0 20"/>
                 <TextBox x:Name="userText" Width="300" Header="Username" PlaceholderText="Enter your username" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 20"/>
                 <PasswordBox x:Name="passText" Width="300" Header="Password" PlaceholderText="Enter your password" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 10" />

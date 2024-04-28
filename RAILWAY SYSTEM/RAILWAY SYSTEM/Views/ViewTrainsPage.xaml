@@ -9,8 +9,12 @@
     <Grid x:Name="ContentArea">
         <ScrollViewer>
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
-                <Image x:Name="add" Source="/Assets/add.png" Height="250" Width="250" Margin="0 0 0 10"/>
-                <TextBox x:Name="Train_ID" Width="300" Header="Train ID: " PlaceholderText="Enter ID" FontSize="15" HorizontalAlignment="Center" Margin="5 20 5 5"/>
+                <Image x:Name="k" Source="/Assets/k.png" Height="350" Width="350" Margin="0 0 0 0"/>
+                <AutoSuggestBox  Header="Enter Train ID :" PlaceholderText="Search"
+                 TextChanged="Control2_TextChanged"
+                 QueryIcon="Find"
+                 QuerySubmitted="Control2_QuerySubmitted"
+                 SuggestionChosen="Control2_SuggestionChosen"/>
                 <Button x:Name="View_Button" Width="200" Height="35" FontWeight="Bold" Content="View Train" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 10 10 10"/>
             </StackPanel>
         </ScrollViewer>

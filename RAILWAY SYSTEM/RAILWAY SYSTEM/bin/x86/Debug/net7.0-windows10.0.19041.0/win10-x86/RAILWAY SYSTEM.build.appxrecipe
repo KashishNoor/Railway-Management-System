@@ -805,8 +805,14 @@
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\add.png">
       <PackagePath>Assets\add.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\add2.png">
+      <PackagePath>Assets\add2.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\b.png">
       <PackagePath>Assets\b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\bb.png">
+      <PackagePath>Assets\bb.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\c.png">
       <PackagePath>Assets\c.png</PackagePath>
@@ -829,8 +835,20 @@
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\h.png">
       <PackagePath>Assets\h.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\hh.png">
+      <PackagePath>Assets\hh.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\hhh.png">
+      <PackagePath>Assets\hhh.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\i %282%29.png">
+      <PackagePath>Assets\i %282%29.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\i.png">
       <PackagePath>Assets\i.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\j-removebg-preview.png">
+      <PackagePath>Assets\j-removebg-preview.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\j.png">
       <PackagePath>Assets\j.png</PackagePath>
@@ -838,71 +856,35 @@
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\k.png">
       <PackagePath>Assets\k.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\l-removebg-preview.png">
+      <PackagePath>Assets\l-removebg-preview.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\l.png">
       <PackagePath>Assets\l.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\login.png">
+      <PackagePath>Assets\login.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\m.png">
+      <PackagePath>Assets\m.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\n.png">
       <PackagePath>Assets\n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\one.svg">
-      <PackagePath>Assets\one.svg</PackagePath>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\o.png">
+      <PackagePath>Assets\o.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\RAIL.jpg">
-      <PackagePath>Assets\RAIL.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\RAILWAY SYSTEM - Shortcut.lnk">
+      <PackagePath>Assets\RAILWAY SYSTEM - Shortcut.lnk</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\SplashScreen.scale-200.png">
-      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\signup.png">
+      <PackagePath>Assets\signup.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\Square150x150Logo.scale-200.png">
-      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\u1.png">
+      <PackagePath>Assets\u1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\Square44x44Logo.scale-200.png">
-      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
-      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_buffer_wq43.svg">
-      <PackagePath>Assets\undraw_buffer_wq43.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_chat_bot_re_e2gj %281%29.svg">
-      <PackagePath>Assets\undraw_chat_bot_re_e2gj %281%29.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_chat_bot_re_e2gj.svg">
-      <PackagePath>Assets\undraw_chat_bot_re_e2gj.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_collab_-8-oes.svg">
-      <PackagePath>Assets\undraw_collab_-8-oes.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_dashboard_re_3b76.svg">
-      <PackagePath>Assets\undraw_dashboard_re_3b76.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_events_re_98ue.svg">
-      <PackagePath>Assets\undraw_events_re_98ue.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_Hire_re_gn5j.png">
-      <PackagePath>Assets\undraw_Hire_re_gn5j.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_image_viewer_re_7ejc.svg">
-      <PackagePath>Assets\undraw_image_viewer_re_7ejc.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_product_teardown_re_m1pc.svg">
-      <PackagePath>Assets\undraw_product_teardown_re_m1pc.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_Searching_re_3ra9.png">
-      <PackagePath>Assets\undraw_Searching_re_3ra9.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\undraw_text_files_au1q.svg">
-      <PackagePath>Assets\undraw_text_files_au1q.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\Wide310x150Logo.scale-200.png">
-      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\u2.png">
+      <PackagePath>Assets\u2.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\WindowIcon.ico">
       <PackagePath>Assets\WindowIcon.ico</PackagePath>

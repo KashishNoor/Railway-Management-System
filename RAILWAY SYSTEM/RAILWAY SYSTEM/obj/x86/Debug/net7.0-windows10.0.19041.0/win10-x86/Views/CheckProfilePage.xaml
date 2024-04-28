@@ -6,35 +6,16 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:ConnectionId='2' x:Name="ContentArea" VerticalAlignment="Top" HorizontalAlignment="Left">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />
-            <!-- First column for the first TextBox -->
-            <ColumnDefinition Width="100" />
-            <!-- Spacer column -->
-            <ColumnDefinition Width="Auto" />
-            <!-- Third column for the second TextBox -->
-        </Grid.ColumnDefinitions>
-
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <!-- First row for images -->
-            <RowDefinition Height="Auto" />
-            <!-- Second row for text boxes -->
-            <RowDefinition Height="Auto" />
-            <!-- Third row for the button -->
-        </Grid.RowDefinitions>
-
-        <!-- Images in the first row -->
-        <Image x:ConnectionId='3' x:Name="l" Source="/Assets/l.png" Height="250" Width="250" Grid.Column="0" Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="15"/>
-        <Image x:ConnectionId='4' x:Name="n" Source="/Assets/n.png" Height="300" Width="250" Grid.Column="2" Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="13"/>
-
-        <!-- Text boxes in the second row -->
-        <TextBox x:ConnectionId='5' x:Name="TextBox1" Header="Employee ID: " PlaceholderText="Enter ID" FontSize="15" Grid.Column="0" Grid.Row="1" Width="250" Margin="0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-        <TextBox x:ConnectionId='6' x:Name="TextBox2" Header="Passenger ID:" PlaceholderText="Enter ID" FontSize="15" Grid.Column="2" Grid.Row="1" Width="250" Margin="0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-
-        <!-- Button in the third row, centered between the two text boxes -->
-        <Button x:ConnectionId='7' x:Name="Check_Button" Width="180" Height="35" FontWeight="Bold" Content="Check Profile" Grid.ColumnSpan="3" Grid.Row="2" HorizontalAlignment="Stretch" Background="#505AC9" Foreground="#FFFFFF" Margin="0 50 0 10"/>
+    <Grid x:ConnectionId='2' x:Name="ContentArea">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Image x:ConnectionId='3' x:Name="m" Source="/Assets/m.png" VerticalAlignment="Top" HorizontalAlignment="Center" Height="250" Width="350" Margin="0 0 0 20" Grid.Row="0" />
+            <AutoSuggestBox x:ConnectionId='4'  Header="Enter ID :" PlaceholderText="Search Profile"
+                                                
+              QueryIcon="Find"
+                                                      
+                                                          />
+            <Button x:ConnectionId='5' x:Name="Check_Button" Content="Check Profile" Width="180" Height="35" FontWeight="Bold" Background="#505AC9" Foreground="#FFFFFF" HorizontalAlignment="Center" Margin="0 50 0 10" Grid.Row="2" />
+        </StackPanel>
     </Grid>
 </Page>
 
