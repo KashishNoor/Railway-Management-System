@@ -18,8 +18,6 @@ public sealed partial class SignupPage : Page
     {
         ViewModel = App.GetService<SignupViewModel>();
         InitializeComponent();
-
-        // Define the Oracle connection string
         string conStr = @"DATA SOURCE=localhost:1521/XE; USER ID=SHISH; PASSWORD=1234";
         con = new OracleConnection(conStr);  // Initialize Oracle connection
     }
