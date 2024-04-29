@@ -5,7 +5,6 @@ Styles\TextBlock.xbf
 Styles\Thickness.xbf
 Views\ADD_EMPLOYEEPage.xbf
 Views\Add_SchedulePage.xbf
-Views\AdminPage.xbf
 Views\CheckProfilePage.xbf
 Views\Delete_EmployeePage.xbf
 Views\Delete_SchedulePage.xbf
@@ -13,6 +12,7 @@ Views\EmployeesPage.xbf
 Views\LoginPage.xbf
 Views\ManageEmployeesPage.xbf
 Views\PassengerPage.xbf
+Views\RevenuePage.xbf
 Views\SettingsPage.xbf
 Views\ShellPage.xbf
 Views\SignupPage.xbf
@@ -22,3 +22,4 @@ Views\Update_EmployeePage.xbf
 Views\Update_SchedulePage.xbf
 Views\ViewFeedbackPage.xbf
 Views\ViewTrainsPage.xbf
+Views\Welcome.xbf

@@ -72,6 +72,8 @@ public partial class App : Application
             services.AddSingleton<IFileService, FileService>();
 
             // Views and ViewModels
+            services.AddTransient<RevenueViewModel>();
+            services.AddTransient<RevenuePage>();
             services.AddTransient<Delete_ScheduleViewModel>();
             services.AddTransient<Delete_SchedulePage>();
             services.AddTransient<Update_ScheduleViewModel>();

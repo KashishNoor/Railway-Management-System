@@ -45,12 +45,12 @@
                 -->
                 <NavigationViewItem x:Uid="Shell_Signup" helpers:NavigationHelper.NavigateTo="RAILWAY_SYSTEM.ViewModels.SignupViewModel">
                     <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE72E;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
                 <NavigationViewItem x:Uid="Shell_Login" helpers:NavigationHelper.NavigateTo="RAILWAY_SYSTEM.ViewModels.LoginViewModel">
                     <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE8F8;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
 
@@ -59,32 +59,32 @@
 
                     <NavigationViewItem x:Uid="Shell_CheckProfile" helpers:NavigationHelper.NavigateTo="RAILWAY_SYSTEM.ViewModels.CheckProfileViewModel">
                         <NavigationViewItem.Icon>
-                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                                <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE726;"/>
                         </NavigationViewItem.Icon>
                     </NavigationViewItem>
                     <NavigationViewItem x:Uid="Shell_ManageEmployees" helpers:NavigationHelper.NavigateTo="RAILWAY_SYSTEM.ViewModels.ManageEmployeesViewModel">
                         <NavigationViewItem.Icon>
-                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                                <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE713;"/>
                         </NavigationViewItem.Icon>
                     </NavigationViewItem>
                     <NavigationViewItem x:Uid="Shell_TrainSchedule_Management" helpers:NavigationHelper.NavigateTo="RAILWAY_SYSTEM.ViewModels.TrainSchedule_ManagementViewModel">
                         <NavigationViewItem.Icon>
-                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                                <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE762;"/>
                         </NavigationViewItem.Icon>
                     </NavigationViewItem>
                     <NavigationViewItem x:Uid="Shell_ViewTrains" helpers:NavigationHelper.NavigateTo="RAILWAY_SYSTEM.ViewModels.ViewTrainsViewModel">
                         <NavigationViewItem.Icon>
-                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                                <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE71E;"/>
                         </NavigationViewItem.Icon>
                     </NavigationViewItem>
                     <NavigationViewItem x:Uid="Shell_Task_Assesment" helpers:NavigationHelper.NavigateTo="RAILWAY_SYSTEM.ViewModels.Task_AssesmentViewModel">
                         <NavigationViewItem.Icon>
-                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                                <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE7BC;"/>
                         </NavigationViewItem.Icon>
                     </NavigationViewItem>
                     <NavigationViewItem x:Uid="Shell_ViewFeedback" helpers:NavigationHelper.NavigateTo="RAILWAY_SYSTEM.ViewModels.ViewFeedbackViewModel">
                         <NavigationViewItem.Icon>
-                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                                <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE71D;"/>
                         </NavigationViewItem.Icon>
                     </NavigationViewItem>
 
@@ -134,6 +134,11 @@
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
                 <NavigationViewItem x:Uid="Shell_Delete_Schedule" helpers:NavigationHelper.NavigateTo="RAILWAY_SYSTEM.ViewModels.Delete_ScheduleViewModel">
+                    <NavigationViewItem.Icon>
+                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem x:Uid="Shell_Revenue" helpers:NavigationHelper.NavigateTo="RAILWAY_SYSTEM.ViewModels.RevenueViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
                     </NavigationViewItem.Icon>

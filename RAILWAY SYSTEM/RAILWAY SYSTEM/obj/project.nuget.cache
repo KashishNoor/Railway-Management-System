@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vmpIySYI7cDrRT/rR139bCnrtQIyoqY85c5XvmbnyaMDFCcwGoLAS5CF1QMp0Eg8lNFUy4v4TrIA4y4vkcPILA==",
+  "dgSpecHash": "WIJG2WZAoe11JuOxnpdVhoZVsOK/eof27zwlA8AryWei3tWu4/18HC16tgIyzEnNB43P5dY5Ev/zSe9GMIzgrQ==",
   "success": true,
   "projectFilePath": "D:\\Railway-Management-System\\RAILWAY SYSTEM\\RAILWAY SYSTEM\\RAILWAY SYSTEM.csproj",
   "expectedPackageFiles": [
@@ -41,7 +41,7 @@
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.windowsappsdk\\1.4.231008000\\microsoft.windowsappsdk.1.4.231008000.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.xaml.behaviors.winui.managed\\2.0.9\\microsoft.xaml.behaviors.winui.managed.2.0.9.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
-    "C:\\Users\\Dell\\.nuget\\packages\\oracle.entityframeworkcore\\7.21.11\\oracle.entityframeworkcore.7.21.11.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\oracle.entityframeworkcore\\7.21.13\\oracle.entityframeworkcore.7.21.13.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\oracle.manageddataaccess.core\\3.21.140\\oracle.manageddataaccess.core.3.21.140.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",

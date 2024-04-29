@@ -32,6 +32,7 @@ public class PageService : IPageService
         Configure<Add_ScheduleViewModel, Add_SchedulePage>();
         Configure<Update_ScheduleViewModel, Update_SchedulePage>();
         Configure<Delete_ScheduleViewModel, Delete_SchedulePage>();
+        Configure<RevenueViewModel, RevenuePage>();
     }
 
     public Type GetPageType(string key)

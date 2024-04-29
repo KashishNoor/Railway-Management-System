@@ -742,7 +742,7 @@
     <AppxPackagedFile Include="C:\Users\Dell\.nuget\packages\newtonsoft.json\13.0.2\lib\net6.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dell\.nuget\packages\oracle.entityframeworkcore\7.21.11\lib\net6.0\Oracle.EntityFrameworkCore.dll">
+    <AppxPackagedFile Include="C:\Users\Dell\.nuget\packages\oracle.entityframeworkcore\7.21.13\lib\net6.0\Oracle.EntityFrameworkCore.dll">
       <PackagePath>Oracle.EntityFrameworkCore.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\.nuget\packages\oracle.manageddataaccess.core\3.21.140\lib\netstandard2.1\Oracle.ManagedDataAccess.dll">
@@ -841,11 +841,11 @@
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\hhh.png">
       <PackagePath>Assets\hhh.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\i %282%29.png">
-      <PackagePath>Assets\i %282%29.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\i.png">
       <PackagePath>Assets\i.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\ii.png">
+      <PackagePath>Assets\ii.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\j-removebg-preview.png">
       <PackagePath>Assets\j-removebg-preview.png</PackagePath>
@@ -885,6 +885,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\u2.png">
       <PackagePath>Assets\u2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\Welcome_Pic.png">
+      <PackagePath>Assets\Welcome_Pic.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\WindowIcon.ico">
       <PackagePath>Assets\WindowIcon.ico</PackagePath>

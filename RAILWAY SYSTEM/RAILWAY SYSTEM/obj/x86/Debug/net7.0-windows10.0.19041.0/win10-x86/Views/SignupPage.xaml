@@ -10,21 +10,22 @@
         <ScrollViewer>
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
                 <Image x:ConnectionId='3' x:Name="signup" Source="/Assets/signup.png" Height="250" Width="250" Margin="0 0 0 10"/>
-                <TextBox x:ConnectionId='4' x:Name="userText" Width="300" Header="Username" PlaceholderText="Enter your username" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
-                <TextBox x:ConnectionId='5' x:Name="userMail" Width="300" Header="Gmail" PlaceholderText="Enter your Gmail" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
-                <PasswordBox x:ConnectionId='6' x:Name="passText" Width="300" Header="Password" PlaceholderText="Enter your password" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 10" />
-                <PasswordBox x:ConnectionId='7' x:Name="passText1" Width="300" Header="Confirm Password" PlaceholderText="Enter your password" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5" />
-                <DropDownButton x:ConnectionId='8' x:Name="genText" Content="User_Status" Width="300" Margin="0 15 10 10">
+                <TextBox x:ConnectionId='4' x:Name="userText1" Width="300" Header="UserID" PlaceholderText="Enter your userID" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
+                <TextBox x:ConnectionId='5' x:Name="userText" Width="300" Header="Username" PlaceholderText="Enter your username" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
+                <TextBox x:ConnectionId='6' x:Name="userMail" Width="300" Header="Gmail" PlaceholderText="Enter your Gmail" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
+                <PasswordBox x:ConnectionId='7' x:Name="Pass" Width="300" Header="Password" PlaceholderText="Enter your password" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 10" />
+                <PasswordBox x:ConnectionId='8' x:Name="ConfirmPass" Width="300" Header="Confirm Password" PlaceholderText="Enter your password" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5" />
+                <DropDownButton x:ConnectionId='9' x:Name="type" Content="User_Status" Width="300" Margin="0 15 10 10">
                     <DropDownButton.Flyout>
                         <MenuFlyout Placement="Bottom">
-                            <MenuFlyoutItem Text="Passenger" Width="300" />
-                            <MenuFlyoutItem Text="Employee" Width="300" />
+                            <MenuFlyoutItem x:ConnectionId='12' Text="Passenger" Width="300"                 />
+                            <MenuFlyoutItem x:ConnectionId='13' Text="Employee" Width="300"                />
                         </MenuFlyout>
                     </DropDownButton.Flyout>
                 </DropDownButton>
                 <TextBlock Text="already have an account? Login" Foreground="#505AC9" Margin="0 0 0 20" />
-                <Button x:ConnectionId='9' x:Name="SignUp_Button" Width="300" Height="35" FontWeight="Bold" Content="SignUp" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 50"                     />
-                <TeachingTip x:ConnectionId='10' x:Name="Error" Title="Warning! ❌️" Subtitle="Sorry, the username or password you entered is incorrect. Please check your credentials and try again."                                />
+                <Button x:ConnectionId='10' x:Name="SignUp_Button" Width="300" Height="35" FontWeight="Bold" Content="SignUp" HorizontalAlignment="Center" Background="#505AC9" Foreground="#FFFFFF" Margin="0 0 0 50"                     />
+                <TeachingTip x:ConnectionId='11' x:Name="Error" Title="Warning! ❌️" Subtitle="Sorry, the username or password you entered is incorrect. Please check your credentials and try again."                                />
             </StackPanel>
         </ScrollViewer>
     </Grid>

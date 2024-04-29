@@ -156,4 +156,7 @@
   <data name="Shell_Delete_Schedule.Content" xml:space="preserve">
     <value>Delete_Schedule</value>
   </data>
+  <data name="Shell_Revenue.Content" xml:space="preserve">
+    <value>Revenue</value>
+  </data>
 </root>

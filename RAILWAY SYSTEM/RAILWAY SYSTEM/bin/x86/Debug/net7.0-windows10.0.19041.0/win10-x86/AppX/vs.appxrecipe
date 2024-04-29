@@ -29,21 +29,21 @@
     <AppXManifest Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-28T16:44:24.197</Modified>
+      <Modified>2024-04-29T08:15:02.285</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-28T16:16:15.879</Modified>
+      <Modified>2024-04-29T08:02:17.186</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\RAILWAY SYSTEM.runtimeconfig.json">
       <PackagePath>RAILWAY SYSTEM.runtimeconfig.json</PackagePath>
-      <Modified>2024-04-26T05:59:27.224</Modified>
+      <Modified>2024-04-29T07:10:17.844</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\RAILWAY SYSTEM.dll">
       <PackagePath>RAILWAY SYSTEM.dll</PackagePath>
-      <Modified>2024-04-28T16:44:23.070</Modified>
+      <Modified>2024-04-29T08:15:01.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
@@ -51,11 +51,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>RAILWAY SYSTEM.exe</PackagePath>
-      <Modified>2024-04-28T16:44:23.082</Modified>
+      <Modified>2024-04-29T08:15:01.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\RAILWAY SYSTEM.deps.json">
       <PackagePath>RAILWAY SYSTEM.deps.json</PackagePath>
-      <Modified>2024-04-26T05:59:26.865</Modified>
+      <Modified>2024-04-29T07:10:17.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\.nuget\packages\microsoft.netcore.app.runtime.win-x86\7.0.14\runtimes\win-x86\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -989,9 +989,9 @@
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2022-11-24T02:10:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dell\.nuget\packages\oracle.entityframeworkcore\7.21.11\lib\net6.0\Oracle.EntityFrameworkCore.dll">
+    <AppxPackagedFile Include="C:\Users\Dell\.nuget\packages\oracle.entityframeworkcore\7.21.13\lib\net6.0\Oracle.EntityFrameworkCore.dll">
       <PackagePath>Oracle.EntityFrameworkCore.dll</PackagePath>
-      <Modified>2023-07-01T23:49:26.000</Modified>
+      <Modified>2023-12-14T14:55:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\.nuget\packages\oracle.manageddataaccess.core\3.21.140\lib\netstandard2.1\Oracle.ManagedDataAccess.dll">
       <PackagePath>Oracle.ManagedDataAccess.dll</PackagePath>
@@ -1121,13 +1121,13 @@
       <PackagePath>Assets\hhh.png</PackagePath>
       <Modified>2024-04-28T11:28:16.161</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\i %282%29.png">
-      <PackagePath>Assets\i %282%29.png</PackagePath>
-      <Modified>2024-04-28T08:10:58.732</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\i.png">
       <PackagePath>Assets\i.png</PackagePath>
       <Modified>2024-04-28T08:10:33.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\ii.png">
+      <PackagePath>Assets\ii.png</PackagePath>
+      <Modified>2024-04-28T08:10:58.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\j-removebg-preview.png">
       <PackagePath>Assets\j-removebg-preview.png</PackagePath>
@@ -1180,6 +1180,10 @@
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\u2.png">
       <PackagePath>Assets\u2.png</PackagePath>
       <Modified>2024-04-28T11:33:17.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\Welcome_Pic.png">
+      <PackagePath>Assets\Welcome_Pic.png</PackagePath>
+      <Modified>2023-10-22T18:06:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\Assets\WindowIcon.ico">
       <PackagePath>Assets\WindowIcon.ico</PackagePath>

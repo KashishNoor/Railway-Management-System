@@ -224,7 +224,7 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[108];
+            _typeNameTable = new string[110];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -255,34 +255,34 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
             _typeNameTable[27] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
             _typeNameTable[28] = "RAILWAY_SYSTEM.Views.Add_SchedulePage";
             _typeNameTable[29] = "RAILWAY_SYSTEM.ViewModels.Add_ScheduleViewModel";
-            _typeNameTable[30] = "RAILWAY_SYSTEM.Views.AdminPage";
-            _typeNameTable[31] = "RAILWAY_SYSTEM.ViewModels.AdminViewModel";
-            _typeNameTable[32] = "RAILWAY_SYSTEM.Views.CheckProfilePage";
-            _typeNameTable[33] = "RAILWAY_SYSTEM.ViewModels.CheckProfileViewModel";
-            _typeNameTable[34] = "RAILWAY_SYSTEM.Views.Delete_EmployeePage";
-            _typeNameTable[35] = "RAILWAY_SYSTEM.ViewModels.Delete_EmployeeViewModel";
-            _typeNameTable[36] = "RAILWAY_SYSTEM.Views.Delete_SchedulePage";
-            _typeNameTable[37] = "RAILWAY_SYSTEM.ViewModels.Delete_ScheduleViewModel";
-            _typeNameTable[38] = "RAILWAY_SYSTEM.Views.EmployeesPage";
-            _typeNameTable[39] = "RAILWAY_SYSTEM.ViewModels.EmployeesViewModel";
-            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.TeachingTip";
-            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[42] = "Microsoft.UI.Xaml.FrameworkElement";
-            _typeNameTable[43] = "System.Windows.Input.ICommand";
-            _typeNameTable[44] = "Microsoft.UI.Xaml.Style";
-            _typeNameTable[45] = "Microsoft.UI.Xaml.UIElement";
-            _typeNameTable[46] = "Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode";
-            _typeNameTable[47] = "Microsoft.UI.Xaml.Controls.IconSource";
-            _typeNameTable[48] = "Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode";
-            _typeNameTable[49] = "Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility";
-            _typeNameTable[50] = "Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings";
-            _typeNameTable[51] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[52] = "RAILWAY_SYSTEM.Views.LoginPage";
-            _typeNameTable[53] = "RAILWAY_SYSTEM.ViewModels.LoginViewModel";
-            _typeNameTable[54] = "RAILWAY_SYSTEM.Views.ManageEmployeesPage";
-            _typeNameTable[55] = "RAILWAY_SYSTEM.ViewModels.ManageEmployeesViewModel";
-            _typeNameTable[56] = "RAILWAY_SYSTEM.Views.PassengerPage";
-            _typeNameTable[57] = "RAILWAY_SYSTEM.ViewModels.PassengerViewModel";
+            _typeNameTable[30] = "RAILWAY_SYSTEM.Views.CheckProfilePage";
+            _typeNameTable[31] = "RAILWAY_SYSTEM.ViewModels.CheckProfileViewModel";
+            _typeNameTable[32] = "RAILWAY_SYSTEM.Views.Delete_EmployeePage";
+            _typeNameTable[33] = "RAILWAY_SYSTEM.ViewModels.Delete_EmployeeViewModel";
+            _typeNameTable[34] = "RAILWAY_SYSTEM.Views.Delete_SchedulePage";
+            _typeNameTable[35] = "RAILWAY_SYSTEM.ViewModels.Delete_ScheduleViewModel";
+            _typeNameTable[36] = "RAILWAY_SYSTEM.Views.EmployeesPage";
+            _typeNameTable[37] = "RAILWAY_SYSTEM.ViewModels.EmployeesViewModel";
+            _typeNameTable[38] = "Microsoft.UI.Xaml.Controls.TeachingTip";
+            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[40] = "Microsoft.UI.Xaml.FrameworkElement";
+            _typeNameTable[41] = "System.Windows.Input.ICommand";
+            _typeNameTable[42] = "Microsoft.UI.Xaml.Style";
+            _typeNameTable[43] = "Microsoft.UI.Xaml.UIElement";
+            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode";
+            _typeNameTable[45] = "Microsoft.UI.Xaml.Controls.IconSource";
+            _typeNameTable[46] = "Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode";
+            _typeNameTable[47] = "Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility";
+            _typeNameTable[48] = "Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings";
+            _typeNameTable[49] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[50] = "RAILWAY_SYSTEM.Views.LoginPage";
+            _typeNameTable[51] = "RAILWAY_SYSTEM.ViewModels.LoginViewModel";
+            _typeNameTable[52] = "RAILWAY_SYSTEM.Views.ManageEmployeesPage";
+            _typeNameTable[53] = "RAILWAY_SYSTEM.ViewModels.ManageEmployeesViewModel";
+            _typeNameTable[54] = "RAILWAY_SYSTEM.Views.PassengerPage";
+            _typeNameTable[55] = "RAILWAY_SYSTEM.ViewModels.PassengerViewModel";
+            _typeNameTable[56] = "RAILWAY_SYSTEM.Views.RevenuePage";
+            _typeNameTable[57] = "RAILWAY_SYSTEM.ViewModels.RevenueViewModel";
             _typeNameTable[58] = "RAILWAY_SYSTEM.Helpers.EnumToBooleanConverter";
             _typeNameTable[59] = "RAILWAY_SYSTEM.Views.SettingsPage";
             _typeNameTable[60] = "RAILWAY_SYSTEM.ViewModels.SettingsViewModel";
@@ -330,11 +330,13 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
             _typeNameTable[102] = "RAILWAY_SYSTEM.ViewModels.ViewFeedbackViewModel";
             _typeNameTable[103] = "RAILWAY_SYSTEM.Views.ViewTrainsPage";
             _typeNameTable[104] = "RAILWAY_SYSTEM.ViewModels.ViewTrainsViewModel";
-            _typeNameTable[105] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[106] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[107] = "Int32";
+            _typeNameTable[105] = "RAILWAY_SYSTEM.Views.AdminPage";
+            _typeNameTable[106] = "RAILWAY_SYSTEM.ViewModels.AdminViewModel";
+            _typeNameTable[107] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[108] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[109] = "Int32";
 
-            _typeTable = new global::System.Type[108];
+            _typeTable = new global::System.Type[110];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -367,34 +369,34 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
             _typeTable[27] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
             _typeTable[28] = typeof(global::RAILWAY_SYSTEM.Views.Add_SchedulePage);
             _typeTable[29] = typeof(global::RAILWAY_SYSTEM.ViewModels.Add_ScheduleViewModel);
-            _typeTable[30] = typeof(global::RAILWAY_SYSTEM.Views.AdminPage);
-            _typeTable[31] = typeof(global::RAILWAY_SYSTEM.ViewModels.AdminViewModel);
-            _typeTable[32] = typeof(global::RAILWAY_SYSTEM.Views.CheckProfilePage);
-            _typeTable[33] = typeof(global::RAILWAY_SYSTEM.ViewModels.CheckProfileViewModel);
-            _typeTable[34] = typeof(global::RAILWAY_SYSTEM.Views.Delete_EmployeePage);
-            _typeTable[35] = typeof(global::RAILWAY_SYSTEM.ViewModels.Delete_EmployeeViewModel);
-            _typeTable[36] = typeof(global::RAILWAY_SYSTEM.Views.Delete_SchedulePage);
-            _typeTable[37] = typeof(global::RAILWAY_SYSTEM.ViewModels.Delete_ScheduleViewModel);
-            _typeTable[38] = typeof(global::RAILWAY_SYSTEM.Views.EmployeesPage);
-            _typeTable[39] = typeof(global::RAILWAY_SYSTEM.ViewModels.EmployeesViewModel);
-            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTip);
-            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
-            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.FrameworkElement);
-            _typeTable[43] = typeof(global::System.Windows.Input.ICommand);
-            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Style);
-            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.UIElement);
-            _typeTable[46] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode);
-            _typeTable[47] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
-            _typeTable[48] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode);
-            _typeTable[49] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility);
-            _typeTable[50] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings);
-            _typeTable[51] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[52] = typeof(global::RAILWAY_SYSTEM.Views.LoginPage);
-            _typeTable[53] = typeof(global::RAILWAY_SYSTEM.ViewModels.LoginViewModel);
-            _typeTable[54] = typeof(global::RAILWAY_SYSTEM.Views.ManageEmployeesPage);
-            _typeTable[55] = typeof(global::RAILWAY_SYSTEM.ViewModels.ManageEmployeesViewModel);
-            _typeTable[56] = typeof(global::RAILWAY_SYSTEM.Views.PassengerPage);
-            _typeTable[57] = typeof(global::RAILWAY_SYSTEM.ViewModels.PassengerViewModel);
+            _typeTable[30] = typeof(global::RAILWAY_SYSTEM.Views.CheckProfilePage);
+            _typeTable[31] = typeof(global::RAILWAY_SYSTEM.ViewModels.CheckProfileViewModel);
+            _typeTable[32] = typeof(global::RAILWAY_SYSTEM.Views.Delete_EmployeePage);
+            _typeTable[33] = typeof(global::RAILWAY_SYSTEM.ViewModels.Delete_EmployeeViewModel);
+            _typeTable[34] = typeof(global::RAILWAY_SYSTEM.Views.Delete_SchedulePage);
+            _typeTable[35] = typeof(global::RAILWAY_SYSTEM.ViewModels.Delete_ScheduleViewModel);
+            _typeTable[36] = typeof(global::RAILWAY_SYSTEM.Views.EmployeesPage);
+            _typeTable[37] = typeof(global::RAILWAY_SYSTEM.ViewModels.EmployeesViewModel);
+            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTip);
+            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
+            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.FrameworkElement);
+            _typeTable[41] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.Style);
+            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.UIElement);
+            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode);
+            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
+            _typeTable[46] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode);
+            _typeTable[47] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility);
+            _typeTable[48] = typeof(global::Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings);
+            _typeTable[49] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[50] = typeof(global::RAILWAY_SYSTEM.Views.LoginPage);
+            _typeTable[51] = typeof(global::RAILWAY_SYSTEM.ViewModels.LoginViewModel);
+            _typeTable[52] = typeof(global::RAILWAY_SYSTEM.Views.ManageEmployeesPage);
+            _typeTable[53] = typeof(global::RAILWAY_SYSTEM.ViewModels.ManageEmployeesViewModel);
+            _typeTable[54] = typeof(global::RAILWAY_SYSTEM.Views.PassengerPage);
+            _typeTable[55] = typeof(global::RAILWAY_SYSTEM.ViewModels.PassengerViewModel);
+            _typeTable[56] = typeof(global::RAILWAY_SYSTEM.Views.RevenuePage);
+            _typeTable[57] = typeof(global::RAILWAY_SYSTEM.ViewModels.RevenueViewModel);
             _typeTable[58] = typeof(global::RAILWAY_SYSTEM.Helpers.EnumToBooleanConverter);
             _typeTable[59] = typeof(global::RAILWAY_SYSTEM.Views.SettingsPage);
             _typeTable[60] = typeof(global::RAILWAY_SYSTEM.ViewModels.SettingsViewModel);
@@ -442,9 +444,11 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
             _typeTable[102] = typeof(global::RAILWAY_SYSTEM.ViewModels.ViewFeedbackViewModel);
             _typeTable[103] = typeof(global::RAILWAY_SYSTEM.Views.ViewTrainsPage);
             _typeTable[104] = typeof(global::RAILWAY_SYSTEM.ViewModels.ViewTrainsViewModel);
-            _typeTable[105] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[106] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[107] = typeof(global::System.Int32);
+            _typeTable[105] = typeof(global::RAILWAY_SYSTEM.Views.AdminPage);
+            _typeTable[106] = typeof(global::RAILWAY_SYSTEM.ViewModels.AdminViewModel);
+            _typeTable[107] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[108] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[109] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -487,24 +491,24 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
         private object Activate_25_ADD_EMPLOYEEViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.ADD_EMPLOYEEViewModel(); }
         private object Activate_28_Add_SchedulePage() { return new global::RAILWAY_SYSTEM.Views.Add_SchedulePage(); }
         private object Activate_29_Add_ScheduleViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.Add_ScheduleViewModel(); }
-        private object Activate_30_AdminPage() { return new global::RAILWAY_SYSTEM.Views.AdminPage(); }
-        private object Activate_31_AdminViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.AdminViewModel(); }
-        private object Activate_32_CheckProfilePage() { return new global::RAILWAY_SYSTEM.Views.CheckProfilePage(); }
-        private object Activate_33_CheckProfileViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.CheckProfileViewModel(); }
-        private object Activate_34_Delete_EmployeePage() { return new global::RAILWAY_SYSTEM.Views.Delete_EmployeePage(); }
-        private object Activate_35_Delete_EmployeeViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.Delete_EmployeeViewModel(); }
-        private object Activate_36_Delete_SchedulePage() { return new global::RAILWAY_SYSTEM.Views.Delete_SchedulePage(); }
-        private object Activate_37_Delete_ScheduleViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.Delete_ScheduleViewModel(); }
-        private object Activate_38_EmployeesPage() { return new global::RAILWAY_SYSTEM.Views.EmployeesPage(); }
-        private object Activate_39_EmployeesViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.EmployeesViewModel(); }
-        private object Activate_40_TeachingTip() { return new global::Microsoft.UI.Xaml.Controls.TeachingTip(); }
-        private object Activate_50_TeachingTipTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings(); }
-        private object Activate_52_LoginPage() { return new global::RAILWAY_SYSTEM.Views.LoginPage(); }
-        private object Activate_53_LoginViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.LoginViewModel(); }
-        private object Activate_54_ManageEmployeesPage() { return new global::RAILWAY_SYSTEM.Views.ManageEmployeesPage(); }
-        private object Activate_55_ManageEmployeesViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.ManageEmployeesViewModel(); }
-        private object Activate_56_PassengerPage() { return new global::RAILWAY_SYSTEM.Views.PassengerPage(); }
-        private object Activate_57_PassengerViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.PassengerViewModel(); }
+        private object Activate_30_CheckProfilePage() { return new global::RAILWAY_SYSTEM.Views.CheckProfilePage(); }
+        private object Activate_31_CheckProfileViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.CheckProfileViewModel(); }
+        private object Activate_32_Delete_EmployeePage() { return new global::RAILWAY_SYSTEM.Views.Delete_EmployeePage(); }
+        private object Activate_33_Delete_EmployeeViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.Delete_EmployeeViewModel(); }
+        private object Activate_34_Delete_SchedulePage() { return new global::RAILWAY_SYSTEM.Views.Delete_SchedulePage(); }
+        private object Activate_35_Delete_ScheduleViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.Delete_ScheduleViewModel(); }
+        private object Activate_36_EmployeesPage() { return new global::RAILWAY_SYSTEM.Views.EmployeesPage(); }
+        private object Activate_37_EmployeesViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.EmployeesViewModel(); }
+        private object Activate_38_TeachingTip() { return new global::Microsoft.UI.Xaml.Controls.TeachingTip(); }
+        private object Activate_48_TeachingTipTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings(); }
+        private object Activate_50_LoginPage() { return new global::RAILWAY_SYSTEM.Views.LoginPage(); }
+        private object Activate_51_LoginViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.LoginViewModel(); }
+        private object Activate_52_ManageEmployeesPage() { return new global::RAILWAY_SYSTEM.Views.ManageEmployeesPage(); }
+        private object Activate_53_ManageEmployeesViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.ManageEmployeesViewModel(); }
+        private object Activate_54_PassengerPage() { return new global::RAILWAY_SYSTEM.Views.PassengerPage(); }
+        private object Activate_55_PassengerViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.PassengerViewModel(); }
+        private object Activate_56_RevenuePage() { return new global::RAILWAY_SYSTEM.Views.RevenuePage(); }
+        private object Activate_57_RevenueViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.RevenueViewModel(); }
         private object Activate_58_EnumToBooleanConverter() { return new global::RAILWAY_SYSTEM.Helpers.EnumToBooleanConverter(); }
         private object Activate_59_SettingsPage() { return new global::RAILWAY_SYSTEM.Views.SettingsPage(); }
         private object Activate_61_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
@@ -529,7 +533,9 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
         private object Activate_102_ViewFeedbackViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.ViewFeedbackViewModel(); }
         private object Activate_103_ViewTrainsPage() { return new global::RAILWAY_SYSTEM.Views.ViewTrainsPage(); }
         private object Activate_104_ViewTrainsViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.ViewTrainsViewModel(); }
-        private object Activate_105_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_105_AdminPage() { return new global::RAILWAY_SYSTEM.Views.AdminPage(); }
+        private object Activate_106_AdminViewModel() { return new global::RAILWAY_SYSTEM.ViewModels.AdminViewModel(); }
+        private object Activate_107_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -549,7 +555,7 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
             var newItem = (global::Microsoft.UI.Xaml.DependencyObject)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_106_IList(object instance, object item)
+        private void VectorAdd_108_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -770,84 +776,69 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 30:   //  RAILWAY_SYSTEM.Views.AdminPage
+            case 30:   //  RAILWAY_SYSTEM.Views.CheckProfilePage
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_30_AdminPage;
+                userType.Activator = Activate_30_CheckProfilePage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 31:   //  RAILWAY_SYSTEM.ViewModels.AdminViewModel
+            case 31:   //  RAILWAY_SYSTEM.ViewModels.CheckProfileViewModel
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 32:   //  RAILWAY_SYSTEM.Views.CheckProfilePage
+            case 32:   //  RAILWAY_SYSTEM.Views.Delete_EmployeePage
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_32_CheckProfilePage;
+                userType.Activator = Activate_32_Delete_EmployeePage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 33:   //  RAILWAY_SYSTEM.ViewModels.CheckProfileViewModel
+            case 33:   //  RAILWAY_SYSTEM.ViewModels.Delete_EmployeeViewModel
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 34:   //  RAILWAY_SYSTEM.Views.Delete_EmployeePage
+            case 34:   //  RAILWAY_SYSTEM.Views.Delete_SchedulePage
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_34_Delete_EmployeePage;
+                userType.Activator = Activate_34_Delete_SchedulePage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 35:   //  RAILWAY_SYSTEM.ViewModels.Delete_EmployeeViewModel
+            case 35:   //  RAILWAY_SYSTEM.ViewModels.Delete_ScheduleViewModel
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 36:   //  RAILWAY_SYSTEM.Views.Delete_SchedulePage
+            case 36:   //  RAILWAY_SYSTEM.Views.EmployeesPage
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_36_Delete_SchedulePage;
+                userType.Activator = Activate_36_EmployeesPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 37:   //  RAILWAY_SYSTEM.ViewModels.Delete_ScheduleViewModel
+            case 37:   //  RAILWAY_SYSTEM.ViewModels.EmployeesViewModel
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 38:   //  RAILWAY_SYSTEM.Views.EmployeesPage
-                userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_38_EmployeesPage;
-                userType.AddMemberName("ViewModel");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 39:   //  RAILWAY_SYSTEM.ViewModels.EmployeesViewModel
-                userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
-                userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 40:   //  Microsoft.UI.Xaml.Controls.TeachingTip
+            case 38:   //  Microsoft.UI.Xaml.Controls.TeachingTip
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_40_TeachingTip;
+                userType.Activator = Activate_38_TeachingTip;
                 userType.AddMemberName("Title");
                 userType.AddMemberName("Subtitle");
                 userType.AddMemberName("Target");
@@ -872,29 +863,29 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 41:   //  Microsoft.UI.Xaml.Controls.ContentControl
+            case 39:   //  Microsoft.UI.Xaml.Controls.ContentControl
                 xamlType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 42:   //  Microsoft.UI.Xaml.FrameworkElement
+            case 40:   //  Microsoft.UI.Xaml.FrameworkElement
                 xamlType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 43:   //  System.Windows.Input.ICommand
+            case 41:   //  System.Windows.Input.ICommand
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 44:   //  Microsoft.UI.Xaml.Style
+            case 42:   //  Microsoft.UI.Xaml.Style
                 xamlType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 45:   //  Microsoft.UI.Xaml.UIElement
+            case 43:   //  Microsoft.UI.Xaml.UIElement
                 xamlType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 46:   //  Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode
+            case 44:   //  Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode.Auto);
                 userType.AddEnumValue("Top", global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode.Top);
@@ -902,11 +893,11 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 47:   //  Microsoft.UI.Xaml.Controls.IconSource
+            case 45:   //  Microsoft.UI.Xaml.Controls.IconSource
                 xamlType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 48:   //  Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode
+            case 46:   //  Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.Auto);
                 userType.AddEnumValue("Top", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.Top);
@@ -925,7 +916,7 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 49:   //  Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility
+            case 47:   //  Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility.Auto);
                 userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility.Visible);
@@ -933,55 +924,70 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 50:   //  Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings
+            case 48:   //  Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 51:   //  Microsoft.UI.Xaml.DependencyObject
+            case 49:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 52:   //  RAILWAY_SYSTEM.Views.LoginPage
+            case 50:   //  RAILWAY_SYSTEM.Views.LoginPage
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_52_LoginPage;
+                userType.Activator = Activate_50_LoginPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 53:   //  RAILWAY_SYSTEM.ViewModels.LoginViewModel
+            case 51:   //  RAILWAY_SYSTEM.ViewModels.LoginViewModel
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 54:   //  RAILWAY_SYSTEM.Views.ManageEmployeesPage
+            case 52:   //  RAILWAY_SYSTEM.Views.ManageEmployeesPage
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_54_ManageEmployeesPage;
+                userType.Activator = Activate_52_ManageEmployeesPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 55:   //  RAILWAY_SYSTEM.ViewModels.ManageEmployeesViewModel
+            case 53:   //  RAILWAY_SYSTEM.ViewModels.ManageEmployeesViewModel
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 56:   //  RAILWAY_SYSTEM.Views.PassengerPage
+            case 54:   //  RAILWAY_SYSTEM.Views.PassengerPage
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_56_PassengerPage;
+                userType.Activator = Activate_54_PassengerPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 57:   //  RAILWAY_SYSTEM.ViewModels.PassengerViewModel
+            case 55:   //  RAILWAY_SYSTEM.ViewModels.PassengerViewModel
+                userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 56:   //  RAILWAY_SYSTEM.Views.RevenuePage
+                userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_56_RevenuePage;
+                userType.AddMemberName("ViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 57:   //  RAILWAY_SYSTEM.ViewModels.RevenueViewModel
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
@@ -1351,9 +1357,24 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 105:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 105:   //  RAILWAY_SYSTEM.Views.AdminPage
+                userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_105_AdminPage;
+                userType.AddMemberName("ViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 106:   //  RAILWAY_SYSTEM.ViewModels.AdminViewModel
+                userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 107:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_105_TreeViewNode;
+                userType.Activator = Activate_107_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -1365,14 +1386,14 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 106:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 108:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_106_IList;
+                userType.CollectionAdd = VectorAdd_108_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 107:   //  Int32
+            case 109:   //  Int32
                 xamlType = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -1746,249 +1767,249 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
             var that = (global::RAILWAY_SYSTEM.Views.Add_SchedulePage)instance;
             return that.ViewModel;
         }
-        private object get_33_AdminPage_ViewModel(object instance)
-        {
-            var that = (global::RAILWAY_SYSTEM.Views.AdminPage)instance;
-            return that.ViewModel;
-        }
-        private object get_34_CheckProfilePage_ViewModel(object instance)
+        private object get_33_CheckProfilePage_ViewModel(object instance)
         {
             var that = (global::RAILWAY_SYSTEM.Views.CheckProfilePage)instance;
             return that.ViewModel;
         }
-        private object get_35_Delete_EmployeePage_ViewModel(object instance)
+        private object get_34_Delete_EmployeePage_ViewModel(object instance)
         {
             var that = (global::RAILWAY_SYSTEM.Views.Delete_EmployeePage)instance;
             return that.ViewModel;
         }
-        private object get_36_Delete_SchedulePage_ViewModel(object instance)
+        private object get_35_Delete_SchedulePage_ViewModel(object instance)
         {
             var that = (global::RAILWAY_SYSTEM.Views.Delete_SchedulePage)instance;
             return that.ViewModel;
         }
-        private object get_37_EmployeesPage_ViewModel(object instance)
+        private object get_36_EmployeesPage_ViewModel(object instance)
         {
             var that = (global::RAILWAY_SYSTEM.Views.EmployeesPage)instance;
             return that.ViewModel;
         }
-        private object get_38_TeachingTip_Title(object instance)
+        private object get_37_TeachingTip_Title(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.Title;
         }
-        private void set_38_TeachingTip_Title(object instance, object Value)
+        private void set_37_TeachingTip_Title(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.Title = (global::System.String)Value;
         }
-        private object get_39_TeachingTip_Subtitle(object instance)
+        private object get_38_TeachingTip_Subtitle(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.Subtitle;
         }
-        private void set_39_TeachingTip_Subtitle(object instance, object Value)
+        private void set_38_TeachingTip_Subtitle(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.Subtitle = (global::System.String)Value;
         }
-        private object get_40_TeachingTip_Target(object instance)
+        private object get_39_TeachingTip_Target(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.Target;
         }
-        private void set_40_TeachingTip_Target(object instance, object Value)
+        private void set_39_TeachingTip_Target(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.Target = (global::Microsoft.UI.Xaml.FrameworkElement)Value;
         }
-        private object get_41_TeachingTip_ActionButtonCommand(object instance)
+        private object get_40_TeachingTip_ActionButtonCommand(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.ActionButtonCommand;
         }
-        private void set_41_TeachingTip_ActionButtonCommand(object instance, object Value)
+        private void set_40_TeachingTip_ActionButtonCommand(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.ActionButtonCommand = (global::System.Windows.Input.ICommand)Value;
         }
-        private object get_42_TeachingTip_ActionButtonCommandParameter(object instance)
+        private object get_41_TeachingTip_ActionButtonCommandParameter(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.ActionButtonCommandParameter;
         }
-        private void set_42_TeachingTip_ActionButtonCommandParameter(object instance, object Value)
+        private void set_41_TeachingTip_ActionButtonCommandParameter(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.ActionButtonCommandParameter = (global::System.Object)Value;
         }
-        private object get_43_TeachingTip_ActionButtonContent(object instance)
+        private object get_42_TeachingTip_ActionButtonContent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.ActionButtonContent;
         }
-        private void set_43_TeachingTip_ActionButtonContent(object instance, object Value)
+        private void set_42_TeachingTip_ActionButtonContent(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.ActionButtonContent = (global::System.Object)Value;
         }
-        private object get_44_TeachingTip_ActionButtonStyle(object instance)
+        private object get_43_TeachingTip_ActionButtonStyle(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.ActionButtonStyle;
         }
-        private void set_44_TeachingTip_ActionButtonStyle(object instance, object Value)
+        private void set_43_TeachingTip_ActionButtonStyle(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.ActionButtonStyle = (global::Microsoft.UI.Xaml.Style)Value;
         }
-        private object get_45_TeachingTip_CloseButtonCommand(object instance)
+        private object get_44_TeachingTip_CloseButtonCommand(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.CloseButtonCommand;
         }
-        private void set_45_TeachingTip_CloseButtonCommand(object instance, object Value)
+        private void set_44_TeachingTip_CloseButtonCommand(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.CloseButtonCommand = (global::System.Windows.Input.ICommand)Value;
         }
-        private object get_46_TeachingTip_CloseButtonCommandParameter(object instance)
+        private object get_45_TeachingTip_CloseButtonCommandParameter(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.CloseButtonCommandParameter;
         }
-        private void set_46_TeachingTip_CloseButtonCommandParameter(object instance, object Value)
+        private void set_45_TeachingTip_CloseButtonCommandParameter(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.CloseButtonCommandParameter = (global::System.Object)Value;
         }
-        private object get_47_TeachingTip_CloseButtonContent(object instance)
+        private object get_46_TeachingTip_CloseButtonContent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.CloseButtonContent;
         }
-        private void set_47_TeachingTip_CloseButtonContent(object instance, object Value)
+        private void set_46_TeachingTip_CloseButtonContent(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.CloseButtonContent = (global::System.Object)Value;
         }
-        private object get_48_TeachingTip_CloseButtonStyle(object instance)
+        private object get_47_TeachingTip_CloseButtonStyle(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.CloseButtonStyle;
         }
-        private void set_48_TeachingTip_CloseButtonStyle(object instance, object Value)
+        private void set_47_TeachingTip_CloseButtonStyle(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.CloseButtonStyle = (global::Microsoft.UI.Xaml.Style)Value;
         }
-        private object get_49_TeachingTip_HeroContent(object instance)
+        private object get_48_TeachingTip_HeroContent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.HeroContent;
         }
-        private void set_49_TeachingTip_HeroContent(object instance, object Value)
+        private void set_48_TeachingTip_HeroContent(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.HeroContent = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_50_TeachingTip_HeroContentPlacement(object instance)
+        private object get_49_TeachingTip_HeroContentPlacement(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.HeroContentPlacement;
         }
-        private void set_50_TeachingTip_HeroContentPlacement(object instance, object Value)
+        private void set_49_TeachingTip_HeroContentPlacement(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.HeroContentPlacement = (global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode)Value;
         }
-        private object get_51_TeachingTip_IconSource(object instance)
+        private object get_50_TeachingTip_IconSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.IconSource;
         }
-        private void set_51_TeachingTip_IconSource(object instance, object Value)
+        private void set_50_TeachingTip_IconSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.IconSource = (global::Microsoft.UI.Xaml.Controls.IconSource)Value;
         }
-        private object get_52_TeachingTip_IsLightDismissEnabled(object instance)
+        private object get_51_TeachingTip_IsLightDismissEnabled(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.IsLightDismissEnabled;
         }
-        private void set_52_TeachingTip_IsLightDismissEnabled(object instance, object Value)
+        private void set_51_TeachingTip_IsLightDismissEnabled(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.IsLightDismissEnabled = (global::System.Boolean)Value;
         }
-        private object get_53_TeachingTip_IsOpen(object instance)
+        private object get_52_TeachingTip_IsOpen(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.IsOpen;
         }
-        private void set_53_TeachingTip_IsOpen(object instance, object Value)
+        private void set_52_TeachingTip_IsOpen(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.IsOpen = (global::System.Boolean)Value;
         }
-        private object get_54_TeachingTip_PlacementMargin(object instance)
+        private object get_53_TeachingTip_PlacementMargin(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.PlacementMargin;
         }
-        private void set_54_TeachingTip_PlacementMargin(object instance, object Value)
+        private void set_53_TeachingTip_PlacementMargin(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.PlacementMargin = (global::Microsoft.UI.Xaml.Thickness)Value;
         }
-        private object get_55_TeachingTip_PreferredPlacement(object instance)
+        private object get_54_TeachingTip_PreferredPlacement(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.PreferredPlacement;
         }
-        private void set_55_TeachingTip_PreferredPlacement(object instance, object Value)
+        private void set_54_TeachingTip_PreferredPlacement(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.PreferredPlacement = (global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode)Value;
         }
-        private object get_56_TeachingTip_ShouldConstrainToRootBounds(object instance)
+        private object get_55_TeachingTip_ShouldConstrainToRootBounds(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.ShouldConstrainToRootBounds;
         }
-        private void set_56_TeachingTip_ShouldConstrainToRootBounds(object instance, object Value)
+        private void set_55_TeachingTip_ShouldConstrainToRootBounds(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.ShouldConstrainToRootBounds = (global::System.Boolean)Value;
         }
-        private object get_57_TeachingTip_TailVisibility(object instance)
+        private object get_56_TeachingTip_TailVisibility(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.TailVisibility;
         }
-        private void set_57_TeachingTip_TailVisibility(object instance, object Value)
+        private void set_56_TeachingTip_TailVisibility(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             that.TailVisibility = (global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility)Value;
         }
-        private object get_58_TeachingTip_TemplateSettings(object instance)
+        private object get_57_TeachingTip_TemplateSettings(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TeachingTip)instance;
             return that.TemplateSettings;
         }
-        private object get_59_LoginPage_ViewModel(object instance)
+        private object get_58_LoginPage_ViewModel(object instance)
         {
             var that = (global::RAILWAY_SYSTEM.Views.LoginPage)instance;
             return that.ViewModel;
         }
-        private object get_60_ManageEmployeesPage_ViewModel(object instance)
+        private object get_59_ManageEmployeesPage_ViewModel(object instance)
         {
             var that = (global::RAILWAY_SYSTEM.Views.ManageEmployeesPage)instance;
             return that.ViewModel;
         }
-        private object get_61_PassengerPage_ViewModel(object instance)
+        private object get_60_PassengerPage_ViewModel(object instance)
         {
             var that = (global::RAILWAY_SYSTEM.Views.PassengerPage)instance;
+            return that.ViewModel;
+        }
+        private object get_61_RevenuePage_ViewModel(object instance)
+        {
+            var that = (global::RAILWAY_SYSTEM.Views.RevenuePage)instance;
             return that.ViewModel;
         }
         private object get_62_SettingsPage_ViewModel(object instance)
@@ -2536,52 +2557,57 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
             var that = (global::RAILWAY_SYSTEM.Views.ViewTrainsPage)instance;
             return that.ViewModel;
         }
-        private object get_126_TreeViewNode_Children(object instance)
+        private object get_126_AdminPage_ViewModel(object instance)
+        {
+            var that = (global::RAILWAY_SYSTEM.Views.AdminPage)instance;
+            return that.ViewModel;
+        }
+        private object get_127_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_127_TreeViewNode_Content(object instance)
+        private object get_128_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_127_TreeViewNode_Content(object instance, object Value)
+        private void set_128_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_128_TreeViewNode_Depth(object instance)
+        private object get_129_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_129_TreeViewNode_HasChildren(object instance)
+        private object get_130_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_130_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_131_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_130_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_131_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_131_TreeViewNode_IsExpanded(object instance)
+        private object get_132_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_131_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_132_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_132_TreeViewNode_Parent(object instance)
+        private object get_133_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -2794,199 +2820,199 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
                 xamlMember.Getter = get_32_Add_SchedulePage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "RAILWAY_SYSTEM.Views.AdminPage.ViewModel":
-                userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RAILWAY_SYSTEM.Views.AdminPage");
-                xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ViewModel", "RAILWAY_SYSTEM.ViewModels.AdminViewModel");
-                xamlMember.Getter = get_33_AdminPage_ViewModel;
-                xamlMember.SetIsReadOnly();
-                break;
             case "RAILWAY_SYSTEM.Views.CheckProfilePage.ViewModel":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RAILWAY_SYSTEM.Views.CheckProfilePage");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ViewModel", "RAILWAY_SYSTEM.ViewModels.CheckProfileViewModel");
-                xamlMember.Getter = get_34_CheckProfilePage_ViewModel;
+                xamlMember.Getter = get_33_CheckProfilePage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "RAILWAY_SYSTEM.Views.Delete_EmployeePage.ViewModel":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RAILWAY_SYSTEM.Views.Delete_EmployeePage");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ViewModel", "RAILWAY_SYSTEM.ViewModels.Delete_EmployeeViewModel");
-                xamlMember.Getter = get_35_Delete_EmployeePage_ViewModel;
+                xamlMember.Getter = get_34_Delete_EmployeePage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "RAILWAY_SYSTEM.Views.Delete_SchedulePage.ViewModel":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RAILWAY_SYSTEM.Views.Delete_SchedulePage");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ViewModel", "RAILWAY_SYSTEM.ViewModels.Delete_ScheduleViewModel");
-                xamlMember.Getter = get_36_Delete_SchedulePage_ViewModel;
+                xamlMember.Getter = get_35_Delete_SchedulePage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "RAILWAY_SYSTEM.Views.EmployeesPage.ViewModel":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RAILWAY_SYSTEM.Views.EmployeesPage");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ViewModel", "RAILWAY_SYSTEM.ViewModels.EmployeesViewModel");
-                xamlMember.Getter = get_37_EmployeesPage_ViewModel;
+                xamlMember.Getter = get_36_EmployeesPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.Title":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "Title", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_38_TeachingTip_Title;
-                xamlMember.Setter = set_38_TeachingTip_Title;
+                xamlMember.Getter = get_37_TeachingTip_Title;
+                xamlMember.Setter = set_37_TeachingTip_Title;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.Subtitle":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "Subtitle", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_39_TeachingTip_Subtitle;
-                xamlMember.Setter = set_39_TeachingTip_Subtitle;
+                xamlMember.Getter = get_38_TeachingTip_Subtitle;
+                xamlMember.Setter = set_38_TeachingTip_Subtitle;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.Target":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "Target", "Microsoft.UI.Xaml.FrameworkElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_40_TeachingTip_Target;
-                xamlMember.Setter = set_40_TeachingTip_Target;
+                xamlMember.Getter = get_39_TeachingTip_Target;
+                xamlMember.Setter = set_39_TeachingTip_Target;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommand":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ActionButtonCommand", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_41_TeachingTip_ActionButtonCommand;
-                xamlMember.Setter = set_41_TeachingTip_ActionButtonCommand;
+                xamlMember.Getter = get_40_TeachingTip_ActionButtonCommand;
+                xamlMember.Setter = set_40_TeachingTip_ActionButtonCommand;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommandParameter":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ActionButtonCommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_42_TeachingTip_ActionButtonCommandParameter;
-                xamlMember.Setter = set_42_TeachingTip_ActionButtonCommandParameter;
+                xamlMember.Getter = get_41_TeachingTip_ActionButtonCommandParameter;
+                xamlMember.Setter = set_41_TeachingTip_ActionButtonCommandParameter;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonContent":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ActionButtonContent", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_43_TeachingTip_ActionButtonContent;
-                xamlMember.Setter = set_43_TeachingTip_ActionButtonContent;
+                xamlMember.Getter = get_42_TeachingTip_ActionButtonContent;
+                xamlMember.Setter = set_42_TeachingTip_ActionButtonContent;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonStyle":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ActionButtonStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_44_TeachingTip_ActionButtonStyle;
-                xamlMember.Setter = set_44_TeachingTip_ActionButtonStyle;
+                xamlMember.Getter = get_43_TeachingTip_ActionButtonStyle;
+                xamlMember.Setter = set_43_TeachingTip_ActionButtonStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommand":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "CloseButtonCommand", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_45_TeachingTip_CloseButtonCommand;
-                xamlMember.Setter = set_45_TeachingTip_CloseButtonCommand;
+                xamlMember.Getter = get_44_TeachingTip_CloseButtonCommand;
+                xamlMember.Setter = set_44_TeachingTip_CloseButtonCommand;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommandParameter":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "CloseButtonCommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_46_TeachingTip_CloseButtonCommandParameter;
-                xamlMember.Setter = set_46_TeachingTip_CloseButtonCommandParameter;
+                xamlMember.Getter = get_45_TeachingTip_CloseButtonCommandParameter;
+                xamlMember.Setter = set_45_TeachingTip_CloseButtonCommandParameter;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonContent":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "CloseButtonContent", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_47_TeachingTip_CloseButtonContent;
-                xamlMember.Setter = set_47_TeachingTip_CloseButtonContent;
+                xamlMember.Getter = get_46_TeachingTip_CloseButtonContent;
+                xamlMember.Setter = set_46_TeachingTip_CloseButtonContent;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonStyle":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "CloseButtonStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_48_TeachingTip_CloseButtonStyle;
-                xamlMember.Setter = set_48_TeachingTip_CloseButtonStyle;
+                xamlMember.Getter = get_47_TeachingTip_CloseButtonStyle;
+                xamlMember.Setter = set_47_TeachingTip_CloseButtonStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.HeroContent":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "HeroContent", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_49_TeachingTip_HeroContent;
-                xamlMember.Setter = set_49_TeachingTip_HeroContent;
+                xamlMember.Getter = get_48_TeachingTip_HeroContent;
+                xamlMember.Setter = set_48_TeachingTip_HeroContent;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.HeroContentPlacement":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "HeroContentPlacement", "Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_50_TeachingTip_HeroContentPlacement;
-                xamlMember.Setter = set_50_TeachingTip_HeroContentPlacement;
+                xamlMember.Getter = get_49_TeachingTip_HeroContentPlacement;
+                xamlMember.Setter = set_49_TeachingTip_HeroContentPlacement;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.IconSource":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "IconSource", "Microsoft.UI.Xaml.Controls.IconSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_51_TeachingTip_IconSource;
-                xamlMember.Setter = set_51_TeachingTip_IconSource;
+                xamlMember.Getter = get_50_TeachingTip_IconSource;
+                xamlMember.Setter = set_50_TeachingTip_IconSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.IsLightDismissEnabled":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "IsLightDismissEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_52_TeachingTip_IsLightDismissEnabled;
-                xamlMember.Setter = set_52_TeachingTip_IsLightDismissEnabled;
+                xamlMember.Getter = get_51_TeachingTip_IsLightDismissEnabled;
+                xamlMember.Setter = set_51_TeachingTip_IsLightDismissEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.IsOpen":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "IsOpen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_53_TeachingTip_IsOpen;
-                xamlMember.Setter = set_53_TeachingTip_IsOpen;
+                xamlMember.Getter = get_52_TeachingTip_IsOpen;
+                xamlMember.Setter = set_52_TeachingTip_IsOpen;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.PlacementMargin":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "PlacementMargin", "Microsoft.UI.Xaml.Thickness");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_54_TeachingTip_PlacementMargin;
-                xamlMember.Setter = set_54_TeachingTip_PlacementMargin;
+                xamlMember.Getter = get_53_TeachingTip_PlacementMargin;
+                xamlMember.Setter = set_53_TeachingTip_PlacementMargin;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.PreferredPlacement":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "PreferredPlacement", "Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_55_TeachingTip_PreferredPlacement;
-                xamlMember.Setter = set_55_TeachingTip_PreferredPlacement;
+                xamlMember.Getter = get_54_TeachingTip_PreferredPlacement;
+                xamlMember.Setter = set_54_TeachingTip_PreferredPlacement;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.ShouldConstrainToRootBounds":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ShouldConstrainToRootBounds", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_56_TeachingTip_ShouldConstrainToRootBounds;
-                xamlMember.Setter = set_56_TeachingTip_ShouldConstrainToRootBounds;
+                xamlMember.Getter = get_55_TeachingTip_ShouldConstrainToRootBounds;
+                xamlMember.Setter = set_55_TeachingTip_ShouldConstrainToRootBounds;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.TailVisibility":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "TailVisibility", "Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_57_TeachingTip_TailVisibility;
-                xamlMember.Setter = set_57_TeachingTip_TailVisibility;
+                xamlMember.Getter = get_56_TeachingTip_TailVisibility;
+                xamlMember.Setter = set_56_TeachingTip_TailVisibility;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.TemplateSettings":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_58_TeachingTip_TemplateSettings;
+                xamlMember.Getter = get_57_TeachingTip_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
             case "RAILWAY_SYSTEM.Views.LoginPage.ViewModel":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RAILWAY_SYSTEM.Views.LoginPage");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ViewModel", "RAILWAY_SYSTEM.ViewModels.LoginViewModel");
-                xamlMember.Getter = get_59_LoginPage_ViewModel;
+                xamlMember.Getter = get_58_LoginPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "RAILWAY_SYSTEM.Views.ManageEmployeesPage.ViewModel":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RAILWAY_SYSTEM.Views.ManageEmployeesPage");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ViewModel", "RAILWAY_SYSTEM.ViewModels.ManageEmployeesViewModel");
-                xamlMember.Getter = get_60_ManageEmployeesPage_ViewModel;
+                xamlMember.Getter = get_59_ManageEmployeesPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "RAILWAY_SYSTEM.Views.PassengerPage.ViewModel":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RAILWAY_SYSTEM.Views.PassengerPage");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ViewModel", "RAILWAY_SYSTEM.ViewModels.PassengerViewModel");
-                xamlMember.Getter = get_61_PassengerPage_ViewModel;
+                xamlMember.Getter = get_60_PassengerPage_ViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "RAILWAY_SYSTEM.Views.RevenuePage.ViewModel":
+                userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RAILWAY_SYSTEM.Views.RevenuePage");
+                xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ViewModel", "RAILWAY_SYSTEM.ViewModels.RevenueViewModel");
+                xamlMember.Getter = get_61_RevenuePage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "RAILWAY_SYSTEM.Views.SettingsPage.ViewModel":
@@ -3434,50 +3460,56 @@ namespace RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo
                 xamlMember.Getter = get_125_ViewTrainsPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "RAILWAY_SYSTEM.Views.AdminPage.ViewModel":
+                userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RAILWAY_SYSTEM.Views.AdminPage");
+                xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "ViewModel", "RAILWAY_SYSTEM.ViewModels.AdminViewModel");
+                xamlMember.Getter = get_126_AdminPage_ViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_126_TreeViewNode_Children;
+                xamlMember.Getter = get_127_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_127_TreeViewNode_Content;
-                xamlMember.Setter = set_127_TreeViewNode_Content;
+                xamlMember.Getter = get_128_TreeViewNode_Content;
+                xamlMember.Setter = set_128_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_128_TreeViewNode_Depth;
+                xamlMember.Getter = get_129_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_129_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_130_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_130_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_130_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_131_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_131_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_131_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_131_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_132_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_132_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::RAILWAY_SYSTEM.RAILWAY_SYSTEM_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_132_TreeViewNode_Parent;
+                xamlMember.Getter = get_133_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

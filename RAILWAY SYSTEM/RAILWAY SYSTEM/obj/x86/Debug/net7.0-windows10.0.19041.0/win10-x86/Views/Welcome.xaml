@@ -6,7 +6,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:Name="ContentArea">
-        
+    <Grid x:ConnectionId='2' x:Name="ContentArea">
+        <ScrollViewer>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Image x:ConnectionId='3' x:Name="Welcome_Pic" Source="/Assets/Welcome_Pic.png" Height="400" Width="400" Margin="0 0 0 10"/>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>
+

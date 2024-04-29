@@ -771,11 +771,11 @@
           }
         }
       },
-      "Oracle.EntityFrameworkCore/7.21.11": {
+      "Oracle.EntityFrameworkCore/7.21.13": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "[7.0.3, 8.0.0)",
-          "Oracle.ManagedDataAccess.Core": "[3.21.110, 3.22.0)"
+          "Oracle.ManagedDataAccess.Core": "[3.21.130, 3.22.0)"
         },
         "compile": {
           "lib/net6.0/Oracle.EntityFrameworkCore.dll": {}
@@ -1926,11 +1926,11 @@
           }
         }
       },
-      "Oracle.EntityFrameworkCore/7.21.11": {
+      "Oracle.EntityFrameworkCore/7.21.13": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "[7.0.3, 8.0.0)",
-          "Oracle.ManagedDataAccess.Core": "[3.21.110, 3.22.0)"
+          "Oracle.ManagedDataAccess.Core": "[3.21.130, 3.22.0)"
         },
         "compile": {
           "lib/net6.0/Oracle.EntityFrameworkCore.dll": {}
@@ -3006,11 +3006,11 @@
           }
         }
       },
-      "Oracle.EntityFrameworkCore/7.21.11": {
+      "Oracle.EntityFrameworkCore/7.21.13": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "[7.0.3, 8.0.0)",
-          "Oracle.ManagedDataAccess.Core": "[3.21.110, 3.22.0)"
+          "Oracle.ManagedDataAccess.Core": "[3.21.130, 3.22.0)"
         },
         "compile": {
           "lib/net6.0/Oracle.EntityFrameworkCore.dll": {}
@@ -4086,11 +4086,11 @@
           }
         }
       },
-      "Oracle.EntityFrameworkCore/7.21.11": {
+      "Oracle.EntityFrameworkCore/7.21.13": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "[7.0.3, 8.0.0)",
-          "Oracle.ManagedDataAccess.Core": "[3.21.110, 3.22.0)"
+          "Oracle.ManagedDataAccess.Core": "[3.21.130, 3.22.0)"
         },
         "compile": {
           "lib/net6.0/Oracle.EntityFrameworkCore.dll": {}
@@ -6131,16 +6131,16 @@
         "packageIcon.png"
       ]
     },
-    "Oracle.EntityFrameworkCore/7.21.11": {
-      "sha512": "8Q0IzR6ZCTKeAblMRtYEAf5alFcgLuoHorBkODFnU1rv9DpFa39Zw1lCgR7aHnwH4A0BBJ71vS/551eqUDoMJg==",
+    "Oracle.EntityFrameworkCore/7.21.13": {
+      "sha512": "i1v/oWjuBtRAxmjqB41a3aanQNeSjFnRPoVp3NfK/UlzkU0QP2eSOaHTNqjDvkdGERW4ZKOgsaFHZJ9QdqJyWQ==",
       "type": "package",
-      "path": "oracle.entityframeworkcore/7.21.11",
+      "path": "oracle.entityframeworkcore/7.21.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
         "lib/net6.0/Oracle.EntityFrameworkCore.dll",
-        "oracle.entityframeworkcore.7.21.11.nupkg.sha512",
+        "oracle.entityframeworkcore.7.21.13.nupkg.sha512",
         "oracle.entityframeworkcore.nuspec",
         "readme.txt"
       ]
@@ -6664,7 +6664,7 @@
       "Microsoft.Extensions.Hosting >= 6.0.1",
       "Microsoft.WindowsAppSDK >= 1.4.231008000",
       "Microsoft.Xaml.Behaviors.WinUI.Managed >= 2.0.9",
-      "Oracle.EntityFrameworkCore >= 7.21.11",
+      "Oracle.EntityFrameworkCore >= 7.21.13",
       "Oracle.ManagedDataAccess.Core >= 3.21.140",
       "RAILWAY SYSTEM.Core >= 1.0.0",
       "WinUIEx >= 2.3.2"
@@ -6736,7 +6736,7 @@
           },
           "Oracle.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[7.21.11, )"
+            "version": "[7.21.13, )"
           },
           "Oracle.ManagedDataAccess.Core": {
             "target": "Package",

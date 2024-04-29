@@ -707,7 +707,6 @@ D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Styles\TextBlock.xbf
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Styles\Thickness.xbf
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\ADD_EMPLOYEEPage.xbf
-D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\AdminPage.xbf
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\CheckProfilePage.xbf
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\EmployeesPage.xbf
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\LoginPage.xbf
@@ -983,8 +982,6 @@ D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\MainWindow.g.cs
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\ADD_EMPLOYEEPage.g.i.cs
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\ADD_EMPLOYEEPage.g.cs
-D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\AdminPage.g.i.cs
-D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\AdminPage.g.cs
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\CheckProfilePage.g.i.cs
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\CheckProfilePage.g.cs
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\EmployeesPage.g.i.cs
@@ -1016,7 +1013,6 @@ D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Styles\TextBlock.xaml
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Styles\Thickness.xaml
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\ADD_EMPLOYEEPage.xaml
-D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\AdminPage.xaml
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\CheckProfilePage.xaml
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\EmployeesPage.xaml
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\LoginPage.xaml
@@ -1035,7 +1031,6 @@ D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Styles\TextBlock.xbf
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Styles\Thickness.xbf
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\ADD_EMPLOYEEPage.xbf
-D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\AdminPage.xbf
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\CheckProfilePage.xbf
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\EmployeesPage.xbf
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\LoginPage.xbf
@@ -1101,3 +1096,13 @@ D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\Add_SchedulePage.xbf
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\Delete_SchedulePage.xbf
 D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\Update_SchedulePage.xbf
+D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\Welcome.xbf
+D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\Welcome.g.i.cs
+D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\Welcome.g.cs
+D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\Welcome.xaml
+D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\Welcome.xbf
+D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\RevenuePage.g.i.cs
+D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\RevenuePage.g.cs
+D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\RevenuePage.xaml
+D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\RevenuePage.xbf
+D:\Railway-Management-System\RAILWAY SYSTEM\RAILWAY SYSTEM\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Views\RevenuePage.xbf

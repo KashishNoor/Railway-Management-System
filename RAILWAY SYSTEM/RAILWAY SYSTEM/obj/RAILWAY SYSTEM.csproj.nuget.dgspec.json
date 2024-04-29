@@ -131,7 +131,7 @@
             },
             "Oracle.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.21.11, )"
+              "version": "[7.21.13, )"
             },
             "Oracle.ManagedDataAccess.Core": {
               "target": "Package",

@@ -7,7 +7,15 @@
     mc:Ignorable="d">
 
     <Grid x:ConnectionId='2' x:Name="ContentArea">
-        
+        <ScrollViewer>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Image x:ConnectionId='3' x:Name="ii_Pic" Source="/Assets/ii.png" Height="250" Width="400" Margin="0 0 0 10"/>
+                <TextBox x:ConnectionId='4' x:Name="userText1" Width="300" Header="Employee_ID" PlaceholderText="Enter ID" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
+                <TextBox x:ConnectionId='5' x:Name="AssignTask" Width="300" Header="AssignTask" PlaceholderText="Select Task" FontSize="15" HorizontalAlignment="Center" Margin="5 5 5 5"/>
+                <Button x:ConnectionId='6' x:Name="Assesment_Button" Content="Assign" Width="180" Height="35" FontWeight="Bold" Background="#505AC9" Foreground="#FFFFFF" HorizontalAlignment="Center" Margin="0 50 0 10" Grid.Row="2"                     />
+
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>
 
